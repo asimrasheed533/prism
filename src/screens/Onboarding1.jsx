@@ -57,7 +57,6 @@ export default class Onboarding1 extends Component {
           </div>
           <div className="key__points__container">
             <div className="key__points__svg">
-              {" "}
               <svg
                 width="53"
                 height="53"

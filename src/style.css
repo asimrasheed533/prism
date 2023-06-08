@@ -11,6 +11,9 @@ body {
   font-size: 16px;
   font-family: sans-serif;
 }
+.main__body {
+  height: 100vh;
+}
 .header__conatiner {
   width: 100%;
   background-color: #e6e7eb;
@@ -88,4 +91,21 @@ body {
   color: #0102c0;
   height: 15px;
   width: 20px;
+}
+.header__conatiner__onboarding {
+  width: 100%;
+  background-color: #e6e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 0em;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0.5em 1em;
+}
+.header__svg svg {
+  color: #0102c0;
+}
+.header__img img {
+  height: 30px;
 }
