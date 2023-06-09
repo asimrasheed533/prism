@@ -6,6 +6,7 @@ import Onboarding2 from "./screens/Onboarding2";
 import Onboarding3 from "./screens/Onboarding3";
 import Onboarding4 from "./screens/Onboarding4";
 import Signup from "./screens/Signup";
+import UserPreference1 from "./screens/UserPreference1";
 
 export default class App extends Component {
   render() {
@@ -18,6 +19,7 @@ export default class App extends Component {
           <Route path="/onboarding3" element={<Onboarding3 />} />
           <Route path="/onboarding4" element={<Onboarding4 />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/userpreference1" element={<UserPreference1 />} />
         </Routes>
       </BrowserRouter>
     );
