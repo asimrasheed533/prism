@@ -1,59 +1,51 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
-export default class Home extends Component {
+export default class Job extends Component {
   render() {
     return (
       <div className="home__container">
         <div className="header__conatiner__onboarding">
-          <Link to="/userpreference3" className="header__svg">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M15 8H1"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M8 15L1 8L8 1"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </Link>
           <div className="header__img">
             <img src={prism} alt="logo" />
           </div>
-          <div className="skip__option">skip</div>
-        </div>
-        <div className="main__wraper">
-          <div className="user__details__section">
-            <div className="user__details__section__heading">
-              What would you like to do?
+          <div className="header__img"></div>
+          <div className="option__profle__menu">
+            <div className="option__profile">AR</div>
+            <div className="option__menu">
+              <svg
+                width="20"
+                height="14"
+                viewBox="0 0 20 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 7H19"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M1 1H19"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M1 13H19"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
             </div>
           </div>
-          <Link to="/connect" className="main__btn__wraper">
-            <button className="btn__primary__connect">Connect</button>
-          </Link>
-          <Link to="/job" className="main__btn__wraper">
-            <button className="btn__primary__job">Explore Jobs</button>
-          </Link>
-          <Link to="/postjob" className="main__btn__wraper">
-            <button className="btn__primary__job">Post A Job</button>
-          </Link>
-          <Link to="/completeprofile" className="main__btn__wraper">
-            <button className="btn__primary__job">Complete Your Profile</button>
-          </Link>
         </div>
+        <div className="main__wraper"></div>
 
         <div className="footer__conteiner">
           <div className="footer__col__wraper">

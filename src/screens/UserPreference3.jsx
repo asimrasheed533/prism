@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
-export default class UserPreference2 extends Component {
+export default class UserPreference3 extends Component {
   render() {
     return (
       <div>
         <div className="header__conatiner__onboarding">
-          <Link to="/userpreference1" className="header__svg">
+          <Link to="/userpreference2" className="header__svg">
             <svg
               width="16"
               height="16"
@@ -36,33 +36,17 @@ export default class UserPreference2 extends Component {
           <div className="skip__option">skip</div>
         </div>
         <div className="user__details__section">
-          <div className="user__details__section__heading">Your Details</div>
-          <div className="user__input__wraper">
-            <div className="user__detail__input__label">LINKEDIN*</div>
-            <input
-              className="user__detail__input"
-              type="text"
-              placeholder="http://www.linkdin.com/in/john"
-            />
-          </div>
-          <div className="user__input__wraper">
-            <div className="user__detail__input__label">GITHUB</div>
-            <input
-              className="user__detail__input"
-              type="text"
-              placeholder="http://github.com/john"
-            />
-          </div>
-          <div className="user__input__wraper">
-            <div className="user__detail__input__label">WEBSITE</div>
-            <input
-              className="user__detail__input"
-              type="text"
-              placeholder="http://personal-website.com"
-            />
+          <div className="user__details__section__heading">Day Rate</div>
+          <div className="user__details__section__heading__sub">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
+            repellat nobis aut corporis rerum quibusdam amet nostrum quidem
+            perspiciatis ratione.
           </div>
         </div>
-        <Link to="/userpreference3" className="main__btn">
+        <div className="range__input">
+          <input type="range" id="rangeInput" min="0" max="100" />
+        </div>
+        <Link to="/userpreference4" className="main__btn">
           <button className="btn__primary">Next</button>
         </Link>
       </div>
