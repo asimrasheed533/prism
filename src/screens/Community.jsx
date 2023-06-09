@@ -1,89 +1,28 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
-export default class PostJob extends Component {
+export default class Community extends Component {
   render() {
     return (
-      <div>
-        <div className="header__conatiner__onboarding">
-          <div className="header__img">
-            <img src={prism} alt="logo" />
-          </div>
-          <div className="header__img"></div>
-          <div className="option__profle__menu">
-            <div className="option__profile">AR</div>
-            <div className="option__menu">
-              <div className="option__menu__entry">Wallet</div>
-              <div className="option__menu__entry">Profile</div>
-              <div className="option__menu__entry">jobs</div>
-              <div className="option__menu__entry">Community</div>
-              <div className="option__menu__entry">Contact</div>
-              <div className="option__menu__entry">Logout</div>
+      <div className="main__body">
+        <div className="header__conatiner">
+          <img src={prism} alt="logo" />
+        </div>
+        <div className="dicord__container">
+          {" "}
+          <div className="text__container">
+            <div className="text__container__heading">
+              join our Discord channel
+            </div>
+            <div className="text__container__sub__heading">
+              Start chatting to other like minded users
             </div>
           </div>
+          <Link to="/community" className="main__btn">
+            <button className="btn__primary">join Discord</button>
+          </Link>
         </div>
-        <div className="post__job__form__conrtainer">
-          <form className="post__job__from">
-            <div className="post__job__form__heading">Post a Job</div>
 
-            <div className="post__job__form__input__container">
-              <div className="radio__btn">
-                <input type="radio" name="gender" value="Yes" />
-                <label for="male">Yes</label>
-
-                <input type="radio" name="gender" value="No" />
-                <label for="female">No</label>
-              </div>
-              <div className="input__wraper">
-                <div className="input__wraper__label">Organization</div>
-                <select className="select__container__select">
-                  <option value="volvo">Choose a Organization</option>
-                </select>
-              </div>
-              <div className="input__wraper">
-                <div className="input__wraper__label">Profession</div>
-                <select className="select__container__select">
-                  <option value="volvo">Choose a Profession</option>
-                  <option value="volvo">React.js</option>
-                  <option value="volvo">HTML/CSS</option>
-                  <option value="volvo">ELIXIR</option>
-                  <option value="volvo">TAILWINDCSS</option>
-                  <option value="volvo">ERLANG</option>
-                  <option value="volvo">PHP</option>
-                  <option value="volvo">DRAFT</option>
-                  <option value="volvo">Android</option>
-                </select>
-              </div>
-              <div className="input__wraper">
-                <div className="input__wraper__label">Top Skill</div>
-                <select className="select__container__select">
-                  <option value="volvo">-</option>
-                  <option value="volvo">React.js</option>
-                  <option value="volvo">HTML/CSS</option>
-                  <option value="volvo">ELIXIR</option>
-                  <option value="volvo">TAILWINDCSS</option>
-                  <option value="volvo">ERLANG</option>
-                  <option value="volvo">PHP</option>
-                  <option value="volvo">DRAFT</option>
-                  <option value="volvo">Android</option>
-                </select>
-              </div>
-              <div className="radio__btn__expertise">
-                <div className="radio__btn__expertise__heading">EXPERTISE</div>
-                <input type="radio" name="expert" value="Minimal" />
-                <label for="expert">Minimal</label>
-                <input type="radio" name="expert" value="Basic" />
-                <label for="expert">Basic</label>
-                <input type="radio" name="expert" value="Intermediate" />
-                <label for="expert">Intermediate</label>
-                <input type="radio" name="expert" value="Advance" />
-                <label for="expert">Advance</label>
-                <input type="radio" name="expert" value="Expert" />
-                <label for="expert">Expert</label>
-              </div>
-            </div>
-          </form>
-        </div>
         <div className="footer__conteiner">
           <Link to="/job" className="footer__col__wraper">
             <div className="footer__col__wraper__svg">

@@ -292,7 +292,7 @@ export default class Job extends Component {
           </Link>
         </div>
         <div className="footer__conteiner">
-          <div className="footer__col__wraper">
+          <Link to="/job" className="footer__col__wraper">
             <div className="footer__col__wraper__svg">
               <svg
                 width="17"
@@ -312,8 +312,8 @@ export default class Job extends Component {
               </svg>
             </div>
             <div className="footer__col__wraper__text">Jobs</div>
-          </div>
-          <div className="footer__col__wraper">
+          </Link>
+          <Link to="/" className="footer__col__wraper">
             <div className="footer__col__wraper__svg">
               <svg
                 width="20"
@@ -337,8 +337,8 @@ export default class Job extends Component {
               </svg>
             </div>
             <div className="footer__col__wraper__text">Home</div>
-          </div>
-          <div className="footer__col__wraper">
+          </Link>
+          <Link to="/community" className="footer__col__wraper">
             <div className="footer__col__wraper__svg">
               <svg
                 width="20"
@@ -354,7 +354,7 @@ export default class Job extends Component {
               </svg>
             </div>
             <div className="footer__col__wraper__text">Community</div>
-          </div>
+          </Link>
         </div>
       </div>
     );

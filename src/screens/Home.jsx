@@ -6,34 +6,21 @@ export default class Home extends Component {
     return (
       <div className="home__container">
         <div className="header__conatiner__onboarding">
-          <Link to="/userpreference3" className="header__svg">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M15 8H1"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M8 15L1 8L8 1"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </Link>
           <div className="header__img">
             <img src={prism} alt="logo" />
           </div>
-          <div className="skip__option">skip</div>
+          <div className="header__img"></div>
+          <div className="option__profle__menu">
+            <div className="option__profile">AR</div>
+            <div className="option__menu">
+              <div className="option__menu__entry">Wallet</div>
+              <div className="option__menu__entry">Profile</div>
+              <div className="option__menu__entry">jobs</div>
+              <div className="option__menu__entry">Community</div>
+              <div className="option__menu__entry">Contact</div>
+              <div className="option__menu__entry">Logout</div>
+            </div>
+          </div>
         </div>
         <div className="main__wraper">
           <div className="user__details__section">
@@ -56,7 +43,7 @@ export default class Home extends Component {
         </div>
 
         <div className="footer__conteiner">
-          <div className="footer__col__wraper">
+          <Link to="/job" className="footer__col__wraper">
             <div className="footer__col__wraper__svg">
               <svg
                 width="17"
@@ -76,8 +63,8 @@ export default class Home extends Component {
               </svg>
             </div>
             <div className="footer__col__wraper__text">Jobs</div>
-          </div>
-          <div className="footer__col__wraper">
+          </Link>
+          <Link to="/" className="footer__col__wraper">
             <div className="footer__col__wraper__svg">
               <svg
                 width="20"
@@ -101,8 +88,8 @@ export default class Home extends Component {
               </svg>
             </div>
             <div className="footer__col__wraper__text">Home</div>
-          </div>
-          <div className="footer__col__wraper">
+          </Link>
+          <Link to="/community" className="footer__col__wraper">
             <div className="footer__col__wraper__svg">
               <svg
                 width="20"
@@ -118,7 +105,7 @@ export default class Home extends Component {
               </svg>
             </div>
             <div className="footer__col__wraper__text">Community</div>
-          </div>
+          </Link>
         </div>
       </div>
     );

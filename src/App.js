@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Community from "./screens/Community";
 import Home from "./screens/Home";
 import Job from "./screens/Job";
 import Onboarding1 from "./screens/Onboarding1";
@@ -32,6 +33,7 @@ export default class App extends Component {
           <Route path="/UserPreference5" element={<UserPreference5 />} />
           <Route path="/job" element={<Job />} />
           <Route path="/postjob" element={<PostJob />} />
+          <Route path="/community" element={<Community />} />
         </Routes>
       </BrowserRouter>
     );
