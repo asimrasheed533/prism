@@ -6,6 +6,7 @@ import Onboarding1 from "./screens/Onboarding1";
 import Onboarding2 from "./screens/Onboarding2";
 import Onboarding3 from "./screens/Onboarding3";
 import Onboarding4 from "./screens/Onboarding4";
+import PostJob from "./screens/PostJob";
 import Signup from "./screens/Signup";
 import UserPreference1 from "./screens/UserPreference1";
 import UserPreference2 from "./screens/UserPreference2";
@@ -30,6 +31,7 @@ export default class App extends Component {
           <Route path="/UserPreference4" element={<UserPreference4 />} />
           <Route path="/UserPreference5" element={<UserPreference5 />} />
           <Route path="/job" element={<Job />} />
+          <Route path="/postjob" element={<PostJob />} />
         </Routes>
       </BrowserRouter>
     );

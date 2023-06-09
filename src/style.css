@@ -549,8 +549,10 @@ body {
   background-color: #e6e7eb;
   border-radius: 12px;
   padding: 12px 20px;
+  margin: 0.3em 0em;
 }
 .job__container__col {
+  width: 250px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -580,6 +582,74 @@ body {
   font-weight: 600;
   color: #2f2f30;
   margin: 0.2em 0em;
+}
+.post__job__form__conrtainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3em;
+}
+.post__job__from {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e6e7eb;
+  border-radius: 7px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em 0em;
+  margin-bottom: 2em;
+}
+.post__job__form__heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #101066;
+  margin: 0.5em 0em;
+}
+.radio__btn {
+  margin: 0.4em 0em;
+}
+.radio__btn input {
+  color: #0102c0;
+  margin-left: 0.3em;
+}
+.input__wraper {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.input__wraper__label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2f2f30;
+  margin: 0.5em 0em;
+}
+.post__job__form__input__container {
+  width: 100%;
+  padding: 1em 2em;
+}
+.post__job__form__input__container__input {
+  width: 100%;
+  border-radius: 7px;
+  border: 1px solid #2f2f30;
+  padding: 0.4em 0.5em;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2f2f30;
+
+  outline: none;
+}
+.radio__btn__expertise {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 @media (max-width: 700px) {
   .user__details__section__heading__sub {
