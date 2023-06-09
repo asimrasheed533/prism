@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
-export default class Onboarding2 extends Component {
+export default class Onboarding3 extends Component {
   render() {
     return (
       <div className="main__body">
         <div className="header__conatiner__onboarding">
-          <Link to="/Onboarding1" className="header__svg">
+          <Link to="/Onboarding2" className="header__svg">
             <svg
               width="16"
               height="16"
@@ -39,9 +39,9 @@ export default class Onboarding2 extends Component {
           <div className="onboading__img">
             <input type="image" alt="image" />
           </div>
-          <div className="onboading__text">Build your work profile</div>
+          <div className="onboading__text">Earn, Reward, Stake, Vote</div>
         </div>
-        <Link to="/onboarding3" className="main__btn">
+        <Link to="/onboarding4" className="main__btn">
           <button className="btn__primary">Next</button>
         </Link>
       </div>

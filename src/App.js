@@ -3,6 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./screens/Home";
 import Onboarding1 from "./screens/Onboarding1";
 import Onboarding2 from "./screens/Onboarding2";
+import Onboarding3 from "./screens/Onboarding3";
+import Onboarding4 from "./screens/Onboarding4";
+import Signup from "./screens/Signup";
 
 export default class App extends Component {
   render() {
@@ -12,6 +15,9 @@ export default class App extends Component {
           <Route path="/" element={<Home />} />
           <Route path="/onboarding1" element={<Onboarding1 />} />
           <Route path="/onboarding2" element={<Onboarding2 />} />
+          <Route path="/onboarding3" element={<Onboarding3 />} />
+          <Route path="/onboarding4" element={<Onboarding4 />} />
+          <Route path="/signup" element={<Signup />} />
         </Routes>
       </BrowserRouter>
     );

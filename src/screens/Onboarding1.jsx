@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
 export default class Onboarding1 extends Component {
   render() {
@@ -16,9 +17,9 @@ export default class Onboarding1 extends Component {
             reputation. Get hired by the best companies.
           </div>
         </div>
-        <div className="main__btn">
+        <Link to="/onboarding2" className="main__btn">
           <button className="btn__primary">Get Started</button>
-        </div>
+        </Link>
         <div className="key__points">
           <div className="key__points__container">
             <div className="key__points__svg">
