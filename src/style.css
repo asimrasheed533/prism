@@ -903,6 +903,40 @@ body {
   padding: 0.2em 0em;
   max-width: 300px;
 }
+.apply__text__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em 3em;
+  margin-top: 3em;
+}
+.apply__text__heading {
+  font-size: 22px;
+  font-weight: 800;
+  margin: 0.2em 0em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.apply__img__wraper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5em 0em;
+}
+
+.apply__img img {
+  /* position: absolute; */
+  height: 40px;
+  width: 40px;
+  border-radius: 60px;
+}
+.apply__img__one img {
+  height: 40px;
+  width: 40px;
+  border-radius: 60px;
+}
 @media (max-width: 700px) {
   .user__details__section__heading__sub {
     width: 100%;

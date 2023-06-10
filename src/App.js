@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AccountInfo from "./screens/AccountInfo";
+import ApplyJob from "./screens/ApplyJob";
 import Community from "./screens/Community";
 import Home from "./screens/Home";
 import Job from "./screens/Job";
@@ -11,6 +12,7 @@ import Onboarding3 from "./screens/Onboarding3";
 import Onboarding4 from "./screens/Onboarding4";
 import PostJob from "./screens/PostJob";
 import Profile from "./screens/Profile";
+import Refer from "./screens/Refer";
 import Signup from "./screens/Signup";
 import UserPreference1 from "./screens/UserPreference1";
 import UserPreference2 from "./screens/UserPreference2";
@@ -40,6 +42,8 @@ export default class App extends Component {
           <Route path="/profile" element={<Profile />} />
           <Route path="/accountinfo" element={<AccountInfo />} />
           <Route path="/jobdetail" element={<JobDetail />} />
+          <Route path="/applyjob" element={<ApplyJob />} />
+          <Route path="/refer" element={<Refer />} />
         </Routes>
       </BrowserRouter>
     );
