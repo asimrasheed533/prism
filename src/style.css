@@ -497,7 +497,7 @@ body {
   justify-content: center;
   flex-direction: column;
   height: 100vh;
-  height: calc(100vh - 110px);
+  height: calc(100vh - 115px);
   overflow-y: auto;
 }
 .option__profle__menu {
@@ -559,6 +559,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.job__container__col__svg {
+  border: 1px solid #2f2f30;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 7px;
 }
 .job__container__col svg {
   border-radius: 8px;
@@ -704,12 +710,51 @@ body {
   padding: 0em 3em;
   font-weight: 600;
 }
-.profile__details__wraper {
+
+.detail__text__container {
   width: 100%;
   display: flex;
-  align-items: flex-start;
-
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
+  padding: 1em 3em;
+}
+.detail__text__container__heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2f2f30;
+  margin: 0.2em 0em;
+  text-align: center;
+}
+.detail__text__container__sub__heading {
+  font-size: 16px;
+  text-align: center;
+  color: #2f2f30;
+  margin: 0.2em 0em;
+}
+
+.main__btn__job {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.7em 0em;
+  text-decoration: none;
+}
+.btn__primary {
+  width: 600px;
+  background-color: #0102c0;
+  color: #fff;
+  padding: 0.8em 0em;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.btn__primary:hover {
+  background-color: #000000;
+  transition: all 0.3s ease-in-out;
 }
 @media (max-width: 700px) {
   .user__details__section__heading__sub {

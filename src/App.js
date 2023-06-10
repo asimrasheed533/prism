@@ -4,6 +4,7 @@ import AccountInfo from "./screens/AccountInfo";
 import Community from "./screens/Community";
 import Home from "./screens/Home";
 import Job from "./screens/Job";
+import JobDetail from "./screens/JobDetail";
 import Onboarding1 from "./screens/Onboarding1";
 import Onboarding2 from "./screens/Onboarding2";
 import Onboarding3 from "./screens/Onboarding3";
@@ -38,6 +39,7 @@ export default class App extends Component {
           <Route path="/community" element={<Community />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/accountinfo" element={<AccountInfo />} />
+          <Route path="/jobdetail" element={<JobDetail />} />
         </Routes>
       </BrowserRouter>
     );

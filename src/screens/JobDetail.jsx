@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
-export default class AccountInfo extends Component {
+export default class JobDetail extends Component {
   render() {
     return (
       <div className="main__body">
@@ -9,9 +9,9 @@ export default class AccountInfo extends Component {
           <div className="header__img">
             <img src={prism} alt="logo" />
           </div>
-          <div className="option__profile">AR</div>
-
+          <div className="header__img"></div>
           <div className="option__profle__menu">
+            <div className="option__profile">AR</div>
             <div className="option__menu">
               <div className="option__menu__entry">Wallet</div>
               <div className="option__menu__entry">Profile</div>
@@ -23,42 +23,22 @@ export default class AccountInfo extends Component {
           </div>
         </div>
         <div className="main__wraper">
-          <div className="profile__details__section__heading">Account Info</div>
-          <div className="user__input__wraper">
-            <div className="user__detail__input__label">Your Email</div>
-            <input
-              className="user__detail__input"
-              type="text"
-              placeholder="asm222@gmail.com"
-            />
+          <div className="detail__text__container">
+            <div className="detail__text__container__heading">
+              Company Mission
+            </div>
+            <div className="detail__text__container__sub__heading">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
+              deserunt ad, odio fugit velit non! Rerum nihil eos, quo corrupti,
+              facere iure in deleniti exercitationem reiciendis, tempore itaque
+              sit mollitia?
+            </div>
           </div>
-
-          <div className="user__input__wraper">
-            <div className="user__detail__input__label">Old Password</div>
-            <input
-              className="user__detail__input"
-              type="text"
-              placeholder="last Name"
-            />
-          </div>
-          <div className="user__input__wraper">
-            <div className="user__detail__input__label">New Password</div>
-            <input
-              className="user__detail__input"
-              type="password"
-              placeholder="last Name"
-            />
-          </div>
-          <div className="user__input__wraper">
-            <div className="user__detail__input__label">Confirm Password</div>
-            <input
-              className="user__detail__input"
-              type="password"
-              placeholder="last Name"
-            />
-          </div>
-          <Link to="/userpreference3" className="main__btn">
-            <button className="btn__primary">Next</button>
+          <Link to="/postjob" className="main__btn__job">
+            <button className="btn__primary">Apply</button>
+          </Link>
+          <Link to="/postjob" className="main__btn__job">
+            <button className="btn__primary">Refer</button>
           </Link>
         </div>
         <div className="footer__conteiner">

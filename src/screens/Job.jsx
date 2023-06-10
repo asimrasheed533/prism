@@ -65,7 +65,7 @@ export default class Job extends Component {
                 </div>
               </div>
 
-              <div className="job__container__col__svg">
+              <Link to="/jobdetail" className="job__container__col__svg">
                 <svg
                   width="25"
                   height="16"
@@ -88,7 +88,7 @@ export default class Job extends Component {
                     stroke-linejoin="round"
                   />
                 </svg>
-              </div>
+              </Link>
             </div>
             <div className="job__container__wraper">
               <div className="job__container__col">
