@@ -4,7 +4,7 @@ import prism from "../assets/prism.svg";
 export default class PostJob extends Component {
   render() {
     return (
-      <div>
+      <div className="main__body">
         <div className="header__conatiner__onboarding">
           <div className="header__img">
             <img src={prism} alt="logo" />
@@ -22,7 +22,7 @@ export default class PostJob extends Component {
             </div>
           </div>
         </div>
-        <div className="post__job__form__conrtainer">
+        <div className="main__wraper">
           <form className="post__job__from">
             <div className="post__job__form__heading">Post a Job</div>
 

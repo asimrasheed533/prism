@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
-export default class Home extends Component {
+export default class AccountInfo extends Component {
   render() {
     return (
       <div className="main__body">
@@ -22,26 +22,45 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
-        <div className="main__wraper">
-          <div className="user__details__section">
-            <div className="user__details__section__heading">
-              What would you like to do?
-            </div>
+        <div className="profile__details__wraper">
+          <div className="profile__details__section__heading">Account Info</div>
+          <div className="user__input__wraper">
+            <div className="user__detail__input__label">Your Email</div>
+            <input
+              className="user__detail__input"
+              type="text"
+              placeholder="asm222@gmail.com"
+            />
           </div>
-          <Link to="/connect" className="main__btn__wraper">
-            <button className="btn__primary__connect">Connect</button>
-          </Link>
-          <Link to="/job" className="main__btn__wraper">
-            <button className="btn__primary__job">Explore Jobs</button>
-          </Link>
-          <Link to="/postjob" className="main__btn__wraper">
-            <button className="btn__primary__job">Post A Job</button>
-          </Link>
-          <Link to="/profile" className="main__btn__wraper">
-            <button className="btn__primary__job">Complete Your Profile</button>
+
+          <div className="user__input__wraper">
+            <div className="user__detail__input__label">Old Password</div>
+            <input
+              className="user__detail__input"
+              type="text"
+              placeholder="last Name"
+            />
+          </div>
+          <div className="user__input__wraper">
+            <div className="user__detail__input__label">New Password</div>
+            <input
+              className="user__detail__input"
+              type="password"
+              placeholder="last Name"
+            />
+          </div>
+          <div className="user__input__wraper">
+            <div className="user__detail__input__label">Confirm Password</div>
+            <input
+              className="user__detail__input"
+              type="password"
+              placeholder="last Name"
+            />
+          </div>
+          <Link to="/userpreference3" className="main__btn">
+            <button className="btn__primary">Next</button>
           </Link>
         </div>
-
         <div className="footer__conteiner">
           <Link to="/job" className="footer__col__wraper">
             <div className="footer__col__wraper__svg">

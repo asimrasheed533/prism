@@ -101,7 +101,8 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 1em 0em;
-  max-width: 1366px;
+  height: 60px;
+
   margin: 0 auto;
   padding: 0.5em 1em;
 }
@@ -374,6 +375,7 @@ body {
   justify-content: center;
   display: flex;
   padding: 1em;
+  margin-top: 4em;
 }
 .select__container {
   width: 100%;
@@ -453,15 +455,13 @@ body {
 }
 .footer__conteiner {
   width: 100%;
-  height: 100px;
-  position: static;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid #2f2f30;
-  max-width: 1366px;
   margin: 0 auto;
-  padding: 2em;
+  padding: 1em;
 }
 .footer__col__wraper {
   max-width: 100px;
@@ -472,7 +472,7 @@ body {
   flex-direction: column;
   padding-top: 0.8em;
   cursor: pointer;
-  margin: 1em 0em;
+
   text-decoration: none;
 }
 .footer__col__wraper__svg svg {
@@ -488,15 +488,7 @@ body {
   color: #2f2f30;
   margin: 0.5em 0em;
 }
-.main__wraper__filter {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-  height: 74vh;
-  overflow-y: auto;
-}
+
 .main__wraper {
   width: 100%;
   display: flex;
@@ -504,13 +496,16 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 74vh;
+  height: 100vh;
+  height: calc(100vh - 110px);
   overflow-y: auto;
 }
 .option__profle__menu {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 3em;
 }
 .option__profile {
   border: 1px solid black;
@@ -543,6 +538,8 @@ body {
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
+  height: 100vh;
+  height: calc(100vh - 120px);
   max-width: 1250px;
   margin: 0 auto;
   padding: 2em;
@@ -589,14 +586,7 @@ body {
   color: #2f2f30;
   margin: 0.2em 0em;
 }
-.post__job__form__conrtainer {
-  width: 100%;
-  height: 75vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow-y: auto;
-}
+
 .post__job__from {
   width: 50%;
   max-width: 500px;
@@ -606,7 +596,7 @@ body {
   flex-direction: column;
   background-color: #e6e7eb;
   border-radius: 7px;
-  /* margin: 5em 0em; */
+  margin: 5em 0em;
 }
 .post__job__form__heading {
   font-size: 20px;
@@ -662,9 +652,64 @@ body {
   color: #2f2f30;
   margin-top: 2em;
 }
-.dicord__container {
+.account__info__container {
   width: 100%;
-  height: 77vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 12px;
+  max-width: 1366px;
+  margin: 0 auto;
+  margin-top: 0.6em;
+}
+.account__info__wraper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 4px 12px;
+  margin-left: 1em;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.3s ease-in-out;
+}
+.account__info__wraper:hover {
+  background-color: #3030ac;
+  transition: 0.3s ease-in-out;
+  color: white;
+  border: 1px solid #3030ac;
+}
+.company__profile__svg svg {
+  color: #0102c0;
+  height: 20px;
+}
+.profile__details__section {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1300px;
+  margin: 0 auto;
+  overflow-y: auto;
+}
+.profile__details__section__heading {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  font-size: 22px;
+  padding: 0em 3em;
+  font-weight: 600;
+}
+.profile__details__wraper {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+
+  flex-direction: column;
 }
 @media (max-width: 700px) {
   .user__details__section__heading__sub {

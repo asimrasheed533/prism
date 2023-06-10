@@ -4,7 +4,7 @@ import prism from "../assets/prism.svg";
 export default class Job extends Component {
   render() {
     return (
-      <div className="home__container">
+      <div className="main__body">
         <div className="header__conatiner__onboarding">
           <div className="header__img">
             <img src={prism} alt="logo" />
@@ -22,7 +22,7 @@ export default class Job extends Component {
             </div>
           </div>
         </div>
-        <div className="main__wraper__filter">
+        <div className="main__wraper">
           <div className="select__container__home">
             <div className="select__container__heading">Filter</div>
             <select className="select__container__select">

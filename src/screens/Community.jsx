@@ -8,8 +8,7 @@ export default class Community extends Component {
         <div className="header__conatiner">
           <img src={prism} alt="logo" />
         </div>
-        <div className="dicord__container">
-          {" "}
+        <div className="main__wraper">
           <div className="text__container">
             <div className="text__container__heading">
               join our Discord channel
