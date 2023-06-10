@@ -671,13 +671,54 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
+  margin-bottom: 1.5em;
 }
 .radio__btn__expertise__heading {
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 800;
   color: #2f2f30;
   margin-top: 2em;
+  padding: 0.5em 0em;
   font-family: "Plus Jakarta Sans", sans-serif;
+}
+.radio__btn__wraper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.radio__btn__wraper input {
+  cursor: pointer;
+}
+.radio__btn__wraper label {
+  font-size: 14px;
+  font-weight: 800;
+  color: #2f2f30;
+  margin: 0.2em 0em;
+  padding-left: 0.4em;
+}
+.job__input__wraper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.job__input__wraper__label {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  margin: 0.2em 0em;
+  padding: 0.2em 0em;
+}
+.job__input__wraper input {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 20px;
+  border-radius: 20px;
+  outline: none;
+  border: 0.6px solid #1d1d99;
+  cursor: pointer;
+  font-weight: 600;
 }
 .account__info__container {
   width: 100%;

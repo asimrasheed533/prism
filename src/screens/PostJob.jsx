@@ -9,9 +9,9 @@ export default class PostJob extends Component {
           <div className="header__img">
             <img src={prism} alt="logo" />
           </div>
-          <div className="header__img"></div>
+
+          <div className="option__profile">AR</div>
           <div className="option__profle__menu">
-            <div className="option__profile">AR</div>
             <div className="option__menu">
               <div className="option__menu__entry">Wallet</div>
               <div className="option__menu__entry">Profile</div>
@@ -70,18 +70,56 @@ export default class PostJob extends Component {
               </div>
               <div className="radio__btn__expertise">
                 <div className="radio__btn__expertise__heading">EXPERTISE</div>
-                <input type="radio" name="expert" value="Minimal" />
-                <label for="expert">Minimal</label>
-                <input type="radio" name="expert" value="Basic" />
-                <label for="expert">Basic</label>
-                <input type="radio" name="expert" value="Intermediate" />
-                <label for="expert">Intermediate</label>
-                <input type="radio" name="expert" value="Advance" />
-                <label for="expert">Advance</label>
-                <input type="radio" name="expert" value="Expert" />
-                <label for="expert">Expert</label>
+                <div className="radio__btn__wraper">
+                  <input type="radio" name="expert" value="Minimal" />
+                  <label for="expert">Minimal</label>
+                </div>
+                <div className="radio__btn__wraper">
+                  <input type="radio" name="expert" value="Basic" />
+                  <label for="expert">Basic</label>
+                </div>
+                <div className="radio__btn__wraper">
+                  <input type="radio" name="expert" value="Minimal" />
+                  <label for="expert">Intermediate</label>
+                </div>
+                <div className="radio__btn__wraper">
+                  <input type="radio" name="expert" value="Minimal" />
+                  <label for="expert">Advance</label>
+                </div>
+                <div className="radio__btn__wraper">
+                  <input type="radio" name="expert" value="Minimal" />
+                  <label for="expert">Expert</label>
+                </div>
+              </div>
+
+              <div className="job__input__wraper">
+                <div className="job__inout__wraper__label">Day Rate</div>
+                <input type="text" placeholder="3 Months" />
+              </div>
+              <div className="job__input__wraper">
+                <div className="job__inout__wraper__label">Contract Period</div>
+                <input type="text" placeholder="3 Months" />
+              </div>
+              <div className="job__input__wraper">
+                <div className="job__inout__wraper__label">
+                  Role Description
+                </div>
+                <input type="textarea" placeholder="Job Rols Description" />
+              </div>
+              <div className="job__input__wraper__radio">
+                <div className="job__input__wraper__label">REFERRAL BONUS</div>
+                <div className="radio__btn">
+                  <input type="radio" name="bonus" value="Yes" />
+                  <label for="bonus">Yes</label>
+
+                  <input type="radio" name="bonus" value="No" />
+                  <label for="bonus">No</label>
+                </div>
               </div>
             </div>
+            <Link to="/postjob" className="main__btn">
+              <button className="btn__primary">Post A Job</button>
+            </Link>
           </form>
         </div>
         <div className="footer__conteiner">
