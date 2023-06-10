@@ -158,16 +158,20 @@ body {
   margin: 0 auto;
   padding: 0em 1em;
   background-color: rgb(241, 240, 240);
-  padding: 1em;
+  padding: 2.5em 1.5em;
   border-radius: 12px;
 }
 .form__wraper__input {
   width: 100%;
-  border: 1px solid #1d1d523d;
+  border: none;
+  outline: none;
   border-radius: 20px;
   margin: 0.4em 0em;
   padding: 0.8em 1em;
   outline: none;
+}
+.form__wraper__input::placeholder {
+  color: rgb(167, 163, 163);
 }
 .input__error {
   color: red;
@@ -298,6 +302,12 @@ body {
   font-size: 24px;
   font-weight: 600;
   margin: 1em 0em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.user__container__heading span {
+  color: #303031;
 }
 .skip__option {
   border: 1px solid #0102c0;
@@ -351,8 +361,8 @@ body {
 .user__input__wraper {
   width: 100%;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   margin: 0.7em 0em;
   padding: 0em 4em;
@@ -364,6 +374,7 @@ body {
 }
 .user__detail__input {
   width: 100%;
+  max-width: 500px;
   padding: 12px 20px;
   border-radius: 20px;
   outline: none;
@@ -742,7 +753,7 @@ body {
   text-decoration: none;
 }
 .btn__primary {
-  width: 600px;
+  width: 400px;
   background-color: #0102c0;
   color: #fff;
   padding: 0.8em 0em;

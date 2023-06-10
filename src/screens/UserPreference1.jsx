@@ -59,7 +59,7 @@ export default class UserPreference1 extends Component {
         </div>
         <div className="user__container__text">
           <div className="user__container__heading">
-            You've got your wallet, now let's create your profile
+            <span>You've got your wallet, </span> now let's create your profile
           </div>
           <div className="user__container__sub__heading">
             Build your Profile will help you win work

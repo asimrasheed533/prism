@@ -38,7 +38,7 @@ export default class UserPreference2 extends Component {
         <div className="user__details__section">
           <div className="user__details__section__heading">Your Details</div>
           <div className="user__input__wraper">
-            <div className="user__detail__input__label">LINKEDIN*</div>
+            <div className="user__detail__input__label">Linkedin*</div>
             <input
               className="user__detail__input"
               type="text"
@@ -46,7 +46,7 @@ export default class UserPreference2 extends Component {
             />
           </div>
           <div className="user__input__wraper">
-            <div className="user__detail__input__label">GITHUB</div>
+            <div className="user__detail__input__label">Github</div>
             <input
               className="user__detail__input"
               type="text"
@@ -54,7 +54,7 @@ export default class UserPreference2 extends Component {
             />
           </div>
           <div className="user__input__wraper">
-            <div className="user__detail__input__label">WEBSITE</div>
+            <div className="user__detail__input__label">Website</div>
             <input
               className="user__detail__input"
               type="text"
