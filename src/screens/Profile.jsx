@@ -65,11 +65,9 @@ export default class Profile extends Component {
           </Link>
         </div>
         <div className="main__wraper">
+          <div className="profile__details__section__heading">Edit Profile</div>
           <div className="profile__details__wraper">
-            <div className="profile__details__section__heading">
-              Edit Profile
-            </div>
-            <div className="user__input__wraper">
+            <div className="profile__input__wraper">
               <div className="user__detail__input__label">Name</div>
               <input
                 className="user__detail__input"
@@ -78,7 +76,7 @@ export default class Profile extends Component {
               />
             </div>
 
-            <div className="user__input__wraper">
+            <div className="profile__input__wraper">
               <div className="user__detail__input__label">Last Name</div>
               <input
                 className="user__detail__input"
@@ -86,9 +84,8 @@ export default class Profile extends Component {
                 placeholder="last Name"
               />
             </div>
-          </div>
-          <div className="profile__details__wraper">
-            <div className="user__input__wraper">
+
+            <div className="profile__input__wraper">
               <div className="user__detail__input__label">LINKEDIN*</div>
               <input
                 className="user__detail__input"
@@ -96,7 +93,7 @@ export default class Profile extends Component {
                 placeholder="http://www.linkdin.com/in/john"
               />
             </div>
-            <div className="user__input__wraper">
+            <div className="profile__input__wraper">
               <div className="user__detail__input__label">GITHUB</div>
               <input
                 className="user__detail__input"
@@ -104,7 +101,7 @@ export default class Profile extends Component {
                 placeholder="http://github.com/john"
               />
             </div>
-            <div className="user__input__wraper">
+            <div className="profile__input__wraper">
               <div className="user__detail__input__label">WEBSITE</div>
               <input
                 className="user__detail__input"
@@ -112,10 +109,10 @@ export default class Profile extends Component {
                 placeholder="http://personal-website.com"
               />
             </div>
+            <Link to="/" className="main__btn">
+              <button className="btn__primary">Save changes</button>
+            </Link>
           </div>
-          <Link to="/userpreference3" className="main__btn">
-            <button className="btn__primary">Save changes</button>
-          </Link>
         </div>
         <div className="footer__conteiner">
           <Link to="/job" className="footer__col__wraper">

@@ -42,7 +42,7 @@ export default class Onboarding4 extends Component {
           <div className="onboading__text">Go anonymous, D&!</div>
         </div>
         <Link to="/signup" className="main__btn">
-          <button className="btn__primary">LET's Go</button>
+          <button className="btn__primary">Let's Go</button>
         </Link>
       </div>
     );
