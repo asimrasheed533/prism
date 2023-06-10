@@ -367,9 +367,9 @@ body {
   color: #0102c0;
 }
 .user__input__wraper {
-  width: 100%;
+  width: 600px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   margin: 0.7em 0em;
@@ -377,8 +377,9 @@ body {
 }
 .user__detail__input__label {
   font-size: 18px;
-  font-weight: 800;
-  margin: 8px 0px;
+  font-weight: 700;
+  margin: 6px 0px;
+  font-family: "Poppins", sans-serif;
 }
 .user__detail__input {
   width: 100%;
@@ -481,7 +482,7 @@ body {
   justify-content: space-between;
   border-top: 1px solid #2f2f30;
   margin: 0 auto;
-  padding: 1em;
+  padding: 1em 3em;
 }
 .footer__col__wraper {
   max-width: 100px;
@@ -514,7 +515,6 @@ body {
   display: flex;
   flex: 1;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   height: 100vh;
   height: calc(100vh - 115px);
@@ -528,11 +528,17 @@ body {
   top: 3em;
 }
 .option__profile {
-  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 60px;
-  padding: 0.5em;
+  padding: 0.2em;
   margin-right: 0.6em;
-  background-color: #d5d5d8;
+  cursor: pointer;
+}
+.option__profile img {
+  height: 45px;
+  width: 45px;
 }
 .option__menu {
   display: flex;
@@ -820,7 +826,7 @@ body {
   justify-content: center;
   font-size: 26px;
   padding: 0em 3em;
-  margin-bottom: 2em;
+  margin-top: 3em;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
 }
@@ -927,15 +933,64 @@ body {
 }
 
 .apply__img img {
-  /* position: absolute; */
   height: 40px;
   width: 40px;
+  margin-right: 12px;
   border-radius: 60px;
 }
 .apply__img__one img {
   height: 40px;
   width: 40px;
   border-radius: 60px;
+}
+.apply__job__bar__wraper {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0em 2em;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.apply__job__bar__heading {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.apply__job__bar__input {
+  width: 100%;
+}
+.apply__job__bar__input input {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #8989ce;
+  padding: 0em 1em;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+}
+.refer__text__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em 3em;
+  margin-top: 3em;
+}
+.refer__text__container__heading {
+  font-size: 22px;
+  font-weight: 800;
+  margin: 0.2em 0em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.refer__text__container__sub__heading {
+  font-size: 16px;
+  text-align: center;
+  color: #2f2f30;
+  margin: 0.2em 0em;
 }
 @media (max-width: 700px) {
   .user__details__section__heading__sub {

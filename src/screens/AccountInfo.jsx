@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
+import dp from "../assets/dp.png";
 export default class AccountInfo extends Component {
   render() {
     return (
@@ -9,7 +10,9 @@ export default class AccountInfo extends Component {
           <div className="header__img">
             <img src={prism} alt="logo" />
           </div>
-          <div className="option__profile">AR</div>
+          <div className="option__profile">
+            <img src={dp} alt="avatar" />
+          </div>
 
           <div className="option__profle__menu">
             <div className="option__menu">
@@ -38,7 +41,7 @@ export default class AccountInfo extends Component {
             <input
               className="user__detail__input"
               type="text"
-              placeholder="last Name"
+              placeholder="old password"
             />
           </div>
           <div className="user__input__wraper">
@@ -46,7 +49,7 @@ export default class AccountInfo extends Component {
             <input
               className="user__detail__input"
               type="password"
-              placeholder="last Name"
+              placeholder="new password"
             />
           </div>
           <div className="user__input__wraper">
@@ -54,7 +57,7 @@ export default class AccountInfo extends Component {
             <input
               className="user__detail__input"
               type="password"
-              placeholder="last Name"
+              placeholder="confirm password"
             />
           </div>
           <Link to="/userpreference3" className="main__btn">

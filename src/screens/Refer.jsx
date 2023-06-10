@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
+import dp from "../assets/dp.png";
 export default class Refer extends Component {
   render() {
     return (
@@ -9,8 +10,10 @@ export default class Refer extends Component {
           <div className="header__img">
             <img src={prism} alt="logo" />
           </div>
+          <div className="option__profile">
+            <img src={dp} alt="avatar" />
+          </div>
 
-          <div className="option__profile">AR</div>
           <div className="option__profle__menu">
             <div className="option__menu">
               <div className="option__menu__entry">Wallet</div>
@@ -21,6 +24,23 @@ export default class Refer extends Component {
               <div className="option__menu__entry">Logout</div>
             </div>
           </div>
+        </div>
+        <div className="main__wraper">
+          <div className="refer__text__container">
+            <div className="refer__text__container__heading">Refer</div>
+            <div className="refer__text__container__sub__heading">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+          </div>
+          <Link to="/" className="main__btn">
+            <button className="btn__primary">Generate New Link</button>
+          </Link>
+          <div className="refer__text__container__sub__heading">
+            You can share this link by clicking below button
+          </div>
+          <Link to="/" className="main__btn">
+            <button className="btn__primary">Refer</button>
+          </Link>
         </div>
         <div className="footer__conteiner">
           <Link to="/job" className="footer__col__wraper">

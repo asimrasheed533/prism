@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
+import dp from "../assets/dp.png";
 export default class PostJob extends Component {
   render() {
     return (
@@ -9,8 +10,10 @@ export default class PostJob extends Component {
           <div className="header__img">
             <img src={prism} alt="logo" />
           </div>
+          <div className="option__profile">
+            <img src={dp} alt="avatar" />
+          </div>
 
-          <div className="option__profile">AR</div>
           <div className="option__profle__menu">
             <div className="option__menu">
               <div className="option__menu__entry">Wallet</div>

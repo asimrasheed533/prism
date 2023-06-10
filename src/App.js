@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AccountInfo from "./screens/AccountInfo";
 import ApplyJob from "./screens/ApplyJob";
 import Community from "./screens/Community";
+import EditProfile from "./screens/EditProfile";
 import Home from "./screens/Home";
 import Job from "./screens/Job";
 import JobDetail from "./screens/JobDetail";
@@ -39,11 +40,12 @@ export default class App extends Component {
           <Route path="/job" element={<Job />} />
           <Route path="/postjob" element={<PostJob />} />
           <Route path="/community" element={<Community />} />
-          <Route path="/profile" element={<Profile />} />
+          <Route path="/editprofile" element={<EditProfile />} />
           <Route path="/accountinfo" element={<AccountInfo />} />
           <Route path="/jobdetail" element={<JobDetail />} />
           <Route path="/applyjob" element={<ApplyJob />} />
           <Route path="/refer" element={<Refer />} />
+          <Route path="/profile" element={<Profile />} />
         </Routes>
       </BrowserRouter>
     );

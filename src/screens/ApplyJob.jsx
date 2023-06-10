@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
 import apply from "../assets/apply.jpeg";
+import dp from "../assets/dp.png";
 export default class ApplyJob extends Component {
   render() {
     return (
@@ -10,7 +11,10 @@ export default class ApplyJob extends Component {
           <div className="header__img">
             <img src={prism} alt="logo" />
           </div>
-          <div className="option__profile">AR</div>
+          <div className="option__profile">
+            <img src={dp} alt="avatar" />
+          </div>
+
           <div className="option__profle__menu">
             <div className="option__menu">
               <div className="option__menu__entry">Wallet</div>
@@ -26,7 +30,7 @@ export default class ApplyJob extends Component {
           <div className="apply__text__container">
             <div className="apply__text__heading">Apply</div>
             <div className="apply__img__wraper">
-              <div className="apply__img__one">
+              <div className="apply__img">
                 <img src={apply} alt="image" />
               </div>
               <div className="apply__img">
@@ -36,6 +40,12 @@ export default class ApplyJob extends Component {
 
             <div className="apply__text__heading">Backend Dev</div>
             <div className="apply__text__sub__heading">sample organisation</div>
+          </div>
+          <div className="apply__job__bar__wraper">
+            <div className="apply__job__bar__heading">Day Rate</div>
+            <div className="apply__job__bar__input">
+              <input type="range" />
+            </div>
           </div>
           <Link to="/postjob" className="main__btn">
             <button className="btn__primary">Apply</button>
