@@ -992,6 +992,137 @@ body {
   color: #2f2f30;
   margin: 0.2em 0em;
 }
+.available__work__wraper {
+  width: 100%;
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
+  border-bottom: 1px solid #8989ce;
+}
+.available__work__wraper__heading {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2f2f30;
+  margin: 0.2em 0em;
+  padding: 0.2em 1em;
+  margin-top: 3em;
+}
+.profile__img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3em;
+}
+.profile__img img {
+  height: 100px;
+  width: 100px;
+  border-radius: 60px;
+}
+.edit__profile {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  max-width: 1300px;
+  margin: 0 auto;
+  text-decoration: none;
+}
+.edit__profile__entry {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  background-color: #101066;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 0.3em 0em;
+  transition: all 0.3s ease-in-out;
+}
+.edit__profile__entry:hover {
+  background-color: #000000;
+  transition: all 0.3s ease-in-out;
+}
+.profile__content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0em 2em;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.profile__content__name {
+  font-size: 22px;
+  font-weight: 800;
+  margin: 0.2em 0em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.profile__content__des {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0.2em 0em;
+  color: rgb(78, 77, 77);
+}
+.profile__content__verify {
+  font-size: 16px;
+  margin: 0.4em 0em;
+  color: rgb(14, 13, 13);
+}
+.profile__content__price {
+  font-size: 16px;
+  margin: 0.4em 0em;
+  color: rgb(14, 13, 13);
+}
+.profile__content__price span {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0.4em 0em;
+  color: rgb(14, 13, 13);
+  font-weight: 600;
+}
+.profile__skill__wraper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile__skill {
+  padding: 7px 12px;
+  background-color: #0102c0;
+  color: white;
+  border-radius: 20px;
+  margin: 0em 0.4em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+.live__text__wraper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d4d0d0;
+  padding: 0.5em 0em;
+  margin: 0.6em 0em;
+}
+.live__text__svg svg {
+  height: 20px;
+  width: 20px;
+  margin-right: 0.5em;
+}
+.live__text {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0.2em 0em;
+  color: rgb(48, 47, 47);
+}
 @media (max-width: 700px) {
   .user__details__section__heading__sub {
     width: 100%;
