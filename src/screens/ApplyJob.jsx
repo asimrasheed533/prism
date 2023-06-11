@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
 import apply from "../assets/apply.jpeg";
 import dp from "../assets/dp.png";
+import RangePicker from "../components/RangePicker";
 export default class ApplyJob extends Component {
   render() {
     return (
@@ -44,7 +45,7 @@ export default class ApplyJob extends Component {
           <div className="apply__job__bar__wraper">
             <div className="apply__job__bar__heading">Day Rate</div>
             <div className="apply__job__bar__input">
-              <input type="range" />
+              <RangePicker />
             </div>
           </div>
           <Link to="/postjob" className="main__btn">

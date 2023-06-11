@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
+import RangePicker from "../components/RangePicker";
 export default class UserPreference3 extends Component {
   render() {
     return (
@@ -44,7 +45,7 @@ export default class UserPreference3 extends Component {
           </div>
         </div>
         <div className="range__input">
-          <input type="range" id="rangeInput" min="0" max="100" />
+          <RangePicker />
         </div>
         <Link to="/userpreference4" className="main__btn">
           <button className="btn__primary">Next</button>

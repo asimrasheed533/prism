@@ -6,25 +6,7 @@ export default class AccountInfo extends Component {
   render() {
     return (
       <div className="main__body">
-        <div className="header__conatiner__onboarding">
-          <div className="header__img">
-            <img src={prism} alt="logo" />
-          </div>
-          <div className="option__profile">
-            <img src={dp} alt="avatar" />
-          </div>
-
-          <div className="option__profle__menu">
-            <div className="option__menu">
-              <div className="option__menu__entry">Wallet</div>
-              <div className="option__menu__entry">Profile</div>
-              <div className="option__menu__entry">jobs</div>
-              <div className="option__menu__entry">Community</div>
-              <div className="option__menu__entry">Contact</div>
-              <div className="option__menu__entry">Logout</div>
-            </div>
-          </div>
-        </div>
+        <Header />
         <div className="main__wraper">
           <div className="profile__details__section__heading">Account Info</div>
           <div className="user__input__wraper">
@@ -129,6 +111,56 @@ export default class AccountInfo extends Component {
             <div className="footer__col__wraper__text">Community</div>
           </Link>
         </div>
+      </div>
+    );
+  }
+}
+
+class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      showMenu: false,
+    };
+  }
+
+  componentDidMount() {
+    window.addEventListener("resize", () => {
+      this.setState({ showMenu: false });
+    });
+  }
+
+  render() {
+    return (
+      <div className="header__conatiner__onboarding">
+        <div className="header__img">
+          <img src={prism} alt="logo" />
+        </div>
+        <div>
+          <button
+            title="Menu"
+            onClick={() => {
+              this.setState({ showMenu: !this.state.showMenu });
+            }}
+          >
+            {this.state.showMenu ? "Close" : " Menu"}
+          </button>
+          <div className="option__profile">
+            <img src={dp} alt="avatar" />
+          </div>
+        </div>
+        {this.state.showMenu && (
+          <div className="option__profle__menu">
+            <div className="option__menu">
+              <div className="option__menu__entry">Wallet</div>
+              <div className="option__menu__entry">Profile</div>
+              <div className="option__menu__entry">jobs</div>
+              <div className="option__menu__entry">Community</div>
+              <div className="option__menu__entry">Contact</div>
+              <div className="option__menu__entry">Logout</div>
+            </div>
+          </div>
+        )}
       </div>
     );
   }

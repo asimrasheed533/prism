@@ -545,6 +545,15 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0.5em;
+  animation: slideIn 0.3s ease-in-out;
+}
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }
 .option__menu__entry {
   margin: 0.5em;
