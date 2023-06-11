@@ -11,6 +11,8 @@ import Onboarding1 from "./screens/Onboarding1";
 import Onboarding2 from "./screens/Onboarding2";
 import Onboarding3 from "./screens/Onboarding3";
 import Onboarding4 from "./screens/Onboarding4";
+import Organisation from "./screens/Organisation";
+import OrganisationForm from "./screens/OrganisationForm";
 import PostJob from "./screens/PostJob";
 import Profile from "./screens/Profile";
 import Refer from "./screens/Refer";
@@ -46,6 +48,8 @@ export default class App extends Component {
           <Route path="/applyjob" element={<ApplyJob />} />
           <Route path="/refer" element={<Refer />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/organisation" element={<Organisation />} />
+          <Route path="/organisationform" element={<OrganisationForm />} />
         </Routes>
       </BrowserRouter>
     );

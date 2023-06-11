@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
 import dp from "../assets/dp.png";
-export default class Refer extends Component {
+export default class Organisation extends Component {
   render() {
     return (
       <div className="main__body">
@@ -13,51 +13,20 @@ export default class Refer extends Component {
           <div className="option__profile">
             <img src={dp} alt="avatar" />
           </div>
-
-          <div className="option__profle__menu">
-            <div className="option__menu">
-              <div className="option__menu__entry">Wallet</div>
-              <div className="option__menu__entry">Profile</div>
-              <div className="option__menu__entry">jobs</div>
-              <div className="option__menu__entry">Community</div>
-              <div className="option__menu__entry">Contact</div>
-              <div className="option__menu__entry">Logout</div>
-            </div>
-          </div>
         </div>
         <div className="main__wraper">
           <div className="refer__text__container">
-            <div className="refer__text__container__heading">Refer</div>
+            <div className="refer__text__container__heading">
+              Your Organisations
+            </div>
+            <div className="loded__btn">All Loaded</div>
             <div className="refer__text__container__sub__heading">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </div>
           </div>
-          <div className="refer__step__container">
-            <div className="refer__step__col__wraper">
-              <div className="refer__step__col__wraper__num">1</div>
-              <div className="refer__step__col__wraper__text">Generate</div>
-            </div>
-            <div className="refer__step__col__wraper">
-              <div className="refer__step__col__wraper__num__two">2</div>
-              <div className="refer__step__col__wraper__text">Share</div>
-            </div>
-            <div className="refer__step__col__wraper">
-              <div className="refer__step__col__wraper__num__two">3</div>
-              <div className="refer__step__col__wraper__text">Apply</div>
-            </div>
-            <div className="refer__step__col__wraper">
-              <div className="refer__step__col__wraper__num__two">4</div>
-              <div className="refer__step__col__wraper__text">Accept</div>
-            </div>
-          </div>
-          <Link to="/" className="main__btn">
-            <button className="btn__primary">Generate New Link</button>
-          </Link>
-          <div className="refer__text__container__sub__heading">
-            You can share this link by clicking below button
-          </div>
-          <Link to="/" className="main__btn">
-            <button className="btn__primary">Refer</button>
+
+          <Link to="/organisationform" className="main__btn">
+            <button className="btn__primary">New Organisation</button>
           </Link>
         </div>
         <div className="footer__conteiner">

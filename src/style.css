@@ -1024,11 +1024,110 @@ body {
   text-align: center;
   font-family: "Poppins", sans-serif;
 }
+.loded__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  padding: 0.8em 0em;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  background-color: #0102c0;
+  color: #fff;
+  margin: 1em 0em;
+}
 .refer__text__container__sub__heading {
   font-size: 16px;
   text-align: center;
   color: #2f2f30;
   margin: 0.2em 0em;
+}
+.refer__step__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 3em;
+  margin-top: 3em;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.refer__step__col__wraper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.refer__step__col__wraper__num {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2f2f30;
+  margin: 0.2em 0em;
+  background-color: #0102c0;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 50px;
+  color: white;
+  position: relative;
+}
+.refer__step__col__wraper__num__two {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2f2f30;
+  margin: 0.2em 0em;
+  background-color: #cecedb;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 50px;
+  color: #000000;
+  position: relative;
+}
+.refer__step__col__wraper__num__two:last-child ::after {
+  background-color: #fff;
+}
+.refer__step__col__wraper__num::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 210px;
+  height: 8px;
+  border-radius: 50px;
+  background-color: #0102c0;
+  opacity: 0.2;
+}
+.refer__step__col__wraper__num__two::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 210px;
+  height: 8px;
+  border-radius: 50px;
+  background-color: #ababc4;
+  opacity: 0.2;
+}
+.refer__step__col__wraper__num::after :last-child {
+  display: none;
+}
+.refer__step__col__wraper__text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2f2f30;
+  margin: 0.2em 0em;
+  text-align: center;
 }
 .available__work__wraper {
   width: 100%;

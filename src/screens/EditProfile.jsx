@@ -46,7 +46,7 @@ export default class EditProfile extends Component {
             </div>
             <div className="account__info__wraper__text">Account Info</div>
           </Link>
-          <Link className="account__info__wraper">
+          <Link to="/organisation" className="account__info__wraper">
             <div className="company__profile__svg">
               <svg
                 width="46"
