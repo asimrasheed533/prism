@@ -1500,11 +1500,17 @@ body {
   .select__container {
     flex-direction: column;
   }
-  .select__container__heading {
-    margin: 1em;
-  }
 }
 @media (max-width: 550px) {
+  .user__details__section__heading {
+    font-size: 18px;
+    text-align: center;
+  }
+  .job__container__wraper {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1em 0.7em;
+  }
   .text__container__heading {
     font-size: 22px;
   }
