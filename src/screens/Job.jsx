@@ -21,6 +21,7 @@ export default class Job extends Component {
         <div className="main__wraper">
           <div className="select__container__home">
             <div className="select__container__heading">Filter</div>
+
             <SelectInput
               options={options}
               onChange={(e) => {
@@ -431,5 +432,3 @@ export default class Job extends Component {
     );
   }
 }
-
-
