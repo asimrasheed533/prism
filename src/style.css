@@ -103,9 +103,14 @@ body {
   height: 15px;
   width: 20px;
 }
+.border__header {
+  border-bottom: 1px solid rgb(114, 113, 113);
+
+  width: 100%;
+}
 .header__conatiner__onboarding {
   width: 100%;
-  border-bottom: 1px solid #7e7e833d;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -186,7 +191,7 @@ body {
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 12px 0px;
+  margin: 1.3em 0em;
 }
 .form__wraper__input {
   width: 100%;
