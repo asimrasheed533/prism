@@ -406,7 +406,7 @@ body {
 }
 .range__input {
   width: 100%;
-
+  padding: 0em 2em;
   max-width: 1300px;
   margin: 0 auto;
   margin-top: 6em;
