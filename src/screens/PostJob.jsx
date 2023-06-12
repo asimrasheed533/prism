@@ -89,7 +89,7 @@ export default class PostJob extends Component {
                 <div className="job__input__wraper__label">
                   Role Description
                 </div>
-                <input type="textarea" placeholder="Job Rols Description" />
+                <textarea placeholder="Job Rols Description" />
               </div>
               <div className="job__input__wraper__radio">
                 <div className="job__input__wraper__label">REFERRAL BONUS</div>

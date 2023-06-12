@@ -465,7 +465,7 @@ body {
   width: 100%;
   max-width: 400px;
   padding: 12px 20px;
-  border-radius: 20px;
+  border-radius: 4px;
   outline: none;
   border: 0.6px solid #1d1d99;
   cursor: pointer;
@@ -873,6 +873,7 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
+  margin: 1em 0em;
 }
 .input__wraper__label {
   font-size: 14px;
@@ -932,19 +933,32 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
+  margin: 1em 0em;
+}
+.job__input__wraper textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: 0.6px solid #1d1d99;
+  cursor: pointer;
+  font-weight: 600;
+  resize: none;
+  height: 100px;
 }
 .job__input__wraper__label {
   font-size: 14px;
   font-weight: 600;
   color: black;
-  margin: 0.2em 0em;
+  margin: 0.3em 0em;
   padding: 0.2em 0em;
 }
 .job__input__wraper input {
   width: 100%;
   max-width: 400px;
   padding: 12px 20px;
-  border-radius: 20px;
+  border-radius: 4px;
   outline: none;
   border: 0.6px solid #1d1d99;
   cursor: pointer;
