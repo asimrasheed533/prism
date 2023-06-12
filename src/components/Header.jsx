@@ -93,9 +93,9 @@ export default class Header extends Component {
           {this.state.showMenu && (
             <div className="option__profle__menu">
               <div className="option__menu">
-                <Link to="/home" className="option__menu__entry">
+                {/* <Link to="/home" className="option__menu__entry">
                   Wallet
-                </Link>
+                </Link> */}
                 <Link to="/profile" className="option__menu__entry">
                   Profile
                 </Link>

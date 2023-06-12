@@ -14,7 +14,7 @@ export default class Home extends Component {
             </div>
           </div>
           <div className="home__connection__btn__container">
-            <div className="btn__primary__connect__first">
+            {/* <div className="btn__primary__connect__first">
               <div className="main__btn__svg">
                 <svg
                   width="18"
@@ -32,7 +32,7 @@ export default class Home extends Component {
                 </svg>
               </div>
               <div className="btn__primary__connect__btn">Connect</div>
-            </div>
+            </div> */}
 
             <div className="main__btn__wraper">
               <Link to="/job" className="btn__primary__job">

@@ -71,7 +71,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 8em 0em 2em 0em;
+  margin: 6em 0em 2em 0em;
   text-decoration: none;
 }
 .btn__primary {
@@ -444,6 +444,12 @@ body {
   border-radius: 20px;
   outline: none;
   border: 0.6px solid #1d1d99;
+}
+.select__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 .select__container__home {
   width: 100%;
@@ -1497,16 +1503,26 @@ body {
   }
   .user__details__section__heading__sub {
     width: 100%;
+    font-size: 14px;
   }
   .btn__primary {
-    max-width: 300px;
     margin: 0em 1em;
-  }
-  .select__container {
-    flex-direction: column;
   }
 }
 @media (max-width: 550px) {
+  .select__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .form__wraper {
+    padding: 1em 0.4em;
+  }
+  .main__btn {
+    max-width: 200px;
+  }
+  .btn__primary {
+    font-size: 13px;
+  }
   .user__details__section__heading {
     font-size: 18px;
     text-align: center;
@@ -1523,16 +1539,17 @@ body {
     padding: 1em;
   }
   .signup__form__container__heading {
-    font-size: 18px;
+    font-size: 16px;
   }
   .input__term__text {
     font-size: 13px;
   }
   .signup__form__container__footer {
     font-size: 13px;
+    flex-direction: column;
   }
   .user__container__heading {
-    font-size: 18px;
+    font-size: 16px;
   }
   .user__input__wraper {
     padding: 0em 1em;
@@ -1542,5 +1559,17 @@ body {
     background-color: #f1f1f1;
     padding: 0em 3em;
     border-radius: 6px;
+  }
+  .signup__btn {
+    font-size: 13px;
+  }
+  .sign__container__heading {
+    font-size: 13px;
+  }
+  .walet__container__content {
+    padding: 1em;
+  }
+  .user__container__sub__heading {
+    text-align: center;
   }
 }
