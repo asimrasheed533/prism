@@ -1,30 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import dp from "../assets/dp.png";
-import prism from "../assets/prism.svg";
+import Header from "../components/Header";
 export default class EditProfile extends Component {
   render() {
     return (
       <div className="main__body">
-        <div className="header__conatiner__onboarding">
-          <div className="header__img">
-            <img src={prism} alt="logo" />
-          </div>
-          <div className="option__profile">
-            <img src={dp} alt="avatar" />
-          </div>
-
-          <div className="option__profle__menu">
-            <div className="option__menu">
-              <div className="option__menu__entry">Wallet</div>
-              <div className="option__menu__entry">Profile</div>
-              <div className="option__menu__entry">jobs</div>
-              <div className="option__menu__entry">Community</div>
-              <div className="option__menu__entry">Contact</div>
-              <div className="option__menu__entry">Logout</div>
-            </div>
-          </div>
-        </div>
+        <Header />
         <div className="account__info__container">
           <Link to="/accountinfo" className="account__info__wraper">
             <div className="company__profile__svg">

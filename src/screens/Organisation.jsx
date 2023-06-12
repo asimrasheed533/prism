@@ -1,19 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import prism from "../assets/prism.svg";
-import dp from "../assets/dp.png";
+import Header from "../components/Header";
 export default class Organisation extends Component {
   render() {
     return (
       <div className="main__body">
-        <div className="header__conatiner__onboarding">
-          <div className="header__img">
-            <img src={prism} alt="logo" />
-          </div>
-          <div className="option__profile">
-            <img src={dp} alt="avatar" />
-          </div>
-        </div>
+        <Header />
         <div className="main__wraper">
           <div className="refer__text__container">
             <div className="refer__text__container__heading">

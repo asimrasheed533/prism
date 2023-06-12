@@ -1,30 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import prism from "../assets/prism.svg";
-import dp from "../assets/dp.png";
+import Header from "../components/Header";
 export default class JobDetail extends Component {
   render() {
     return (
       <div className="main__body">
-        <div className="header__conatiner__onboarding">
-          <div className="header__img">
-            <img src={prism} alt="logo" />
-          </div>
-          <div className="option__profile">
-            <img src={dp} alt="avatar" />
-          </div>
-
-          <div className="option__profle__menu">
-            <div className="option__menu">
-              <div className="option__menu__entry">Wallet</div>
-              <div className="option__menu__entry">Profile</div>
-              <div className="option__menu__entry">jobs</div>
-              <div className="option__menu__entry">Community</div>
-              <div className="option__menu__entry">Contact</div>
-              <div className="option__menu__entry">Logout</div>
-            </div>
-          </div>
-        </div>
+        <Header />
         <div className="main__wraper">
           <div className="job__detail__profile__container">
             <div className="job__detail__profile__img">
