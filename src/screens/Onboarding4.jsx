@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
+import imgplace from "../assets/imgplace.png";
 export default class Onboarding4 extends Component {
   render() {
     return (
@@ -37,7 +38,7 @@ export default class Onboarding4 extends Component {
         </div>
         <div className="onboading__img__section">
           <div className="onboading__img">
-            <input type="image" alt="image" />
+            <img src={imgplace} alt="image" />
           </div>
           <div className="onboading__text">Go anonymous, D&!</div>
         </div>

@@ -16,6 +16,7 @@ import OrganisationForm from "./screens/OrganisationForm";
 import PostJob from "./screens/PostJob";
 import Profile from "./screens/Profile";
 import Refer from "./screens/Refer";
+import Signin from "./screens/Signin";
 import Signup from "./screens/Signup";
 import UserPreference1 from "./screens/UserPreference1";
 import UserPreference2 from "./screens/UserPreference2";
@@ -34,6 +35,7 @@ export default class App extends Component {
           <Route path="/onboarding3" element={<Onboarding3 />} />
           <Route path="/onboarding4" element={<Onboarding4 />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/signin" element={<Signin />} />
           <Route path="/userpreference1" element={<UserPreference1 />} />
           <Route path="/userpreference2" element={<UserPreference2 />} />
           <Route path="/userpreference3" element={<UserPreference3 />} />

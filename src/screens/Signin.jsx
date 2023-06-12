@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
 
-export default class Signup extends Component {
+export default class Signin extends Component {
   render() {
     return (
       <div className="main__body__sign">
@@ -40,38 +40,20 @@ export default class Signup extends Component {
           <div className="signup__form__container">
             <form className="form__wraper">
               <div className="signup__form__container__heading">
-                Create Your Account
-              </div>
-              <div className="sign__container">
-                <div className="sign__container__heading">First Name</div>
-                <input
-                  className="form__wraper__input"
-                  type="text"
-                  placeholder="First Name"
-                />
-                <div className="input__error">please provide first name</div>
+                Sign in to your account
               </div>
 
               <div className="sign__container">
-                <div className="sign__container__heading">Last Name</div>
-                <input
-                  className="form__wraper__input"
-                  type="text"
-                  placeholder="Last Name"
-                />
-                <div className="input__error">please provide last name</div>
-              </div>
-              <div className="sign__container">
-                <div className="sign__container__heading">Your Email</div>
+                <div className="sign__container__heading">Email</div>
                 <input
                   className="form__wraper__input"
                   type="email"
-                  placeholder="Your Email"
+                  placeholder="name@company.com"
                 />
                 <div className="input__error">please provide email address</div>
               </div>
               <div className="sign__container">
-                <div className="sign__container__heading">Enter Password</div>
+                <div className="sign__container__heading">Password</div>
                 <input
                   className="form__wraper__input"
                   type="password"
@@ -79,29 +61,12 @@ export default class Signup extends Component {
                 />
                 <div className="input__error">please provide password</div>
               </div>
-              <div className="sign__container">
-                <div className="sign__container__heading">Confirm Password</div>
-                <input
-                  className="form__wraper__input"
-                  type="password"
-                  placeholder="Enter Confirm password"
-                />
-                <div className="input__error">
-                  please provide confirm password
-                </div>
-              </div>
 
-              <div className="input__term">
-                <input type="checkbox" />
-                <div className="input__term__text">
-                  I accept the <span>Terms and Conditions</span>
-                </div>
-              </div>
-              <Link to="/signin" className="signup__btn__wraper">
-                <button className="signup__btn">Create an account</button>
+              <Link to="/home" className="signup__btn__wraper">
+                <button className="signup__btn">Sign In</button>
               </Link>
               <div className="signup__form__container__footer">
-                Already have an account? <Link to="/signin">Login here</Link>
+                Don’t have an account yet? <Link to="/signup">Sign up</Link>
               </div>
             </form>
           </div>
