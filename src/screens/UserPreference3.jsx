@@ -47,7 +47,7 @@ export default class UserPreference3 extends Component {
         <div className="range__input">
           <RangePicker />
         </div>
-        <Link to="/userpreference4" className="main__btn">
+        <Link to="/userpreference4" className="main__btn__user">
           <button className="btn__primary">Next</button>
         </Link>
       </div>

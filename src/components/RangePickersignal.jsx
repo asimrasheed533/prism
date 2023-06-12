@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Range, getTrackBackground } from "react-range";
 
-const STEP = 0.1;
+const STEP = 0.2;
 const MIN = 0;
 const MAX = 100;
 
@@ -83,13 +83,13 @@ class RangePicker extends React.Component {
                 style={{
                   position: "absolute",
                   top: "-28px",
-                  color: "black",
+                  color: "#fff",
                   fontWeight: "bold",
                   fontSize: "14px",
                   fontFamily: "Arial,Helvetica Neue,Helvetica,sans-serif",
                   padding: "4px",
                   borderRadius: "4px",
-                  backgroundColor: "#00F5CC",
+                  backgroundColor: "#0102c0",
                 }}
               >
                 {this.state.values[index].toFixed(1)}

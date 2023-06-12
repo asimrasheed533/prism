@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
+import imgplace from "../assets/imgplace.png";
 export default class UserPreference1 extends Component {
   render() {
     return (
       <div>
         <div className="header__conatiner__onboarding">
-          <Link to="/Onboarding1" className="header__svg">
+          <Link to="/userpreference1" className="header__svg">
             <svg
               width="16"
               height="16"
@@ -37,9 +38,13 @@ export default class UserPreference1 extends Component {
         </div>
         <div className="walet__container__wraper">
           <div className="walet__container__content">
-            <div className="walet__container__content__col">
-              <div className="walet__container__content__col__img">img</div>
-              <div className="walet__container__content__col__name">Name</div>
+            <div className="walet__container__content__col__img__wraper">
+              <div className="walet__container__content__col__img">
+                <img src={imgplace} alt="img" />
+              </div>
+              <div className="walet__container__content__col__name">
+                Arsi Jiger
+              </div>
             </div>
 
             <div className="walet__container__content__col">
@@ -47,6 +52,8 @@ export default class UserPreference1 extends Component {
                 Skill
               </div>
               <div className="walet__container__content__col__skill">
+                <div className="walet__container__col__blank"></div>
+                <div className="walet__container__col__blank"></div>
                 <div className="walet__container__col__blank"></div>
                 <div className="walet__container__col__blank"></div>
                 <div className="walet__container__col__blank"></div>
@@ -65,7 +72,7 @@ export default class UserPreference1 extends Component {
             Build your Profile will help you win work
           </div>
         </div>
-        <Link to="/userpreference2" className="main__btn">
+        <Link to="/userpreference2" className="main__btn__user">
           <button className="btn__primary">Get Started</button>
         </Link>
       </div>

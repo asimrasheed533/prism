@@ -65,9 +65,8 @@ export default class UserPreference5 extends Component {
             <option value="volvo">Android</option>
           </select>
         </div>
-
-        <Link to="/" className="main__btn">
-          <button className="btn__primary">Next</button>
+        <Link to="/home" className="main__btn__user">
+          <button className="btn__primary">Get Started</button>
         </Link>
       </div>
     );

@@ -62,7 +62,7 @@ export default class UserPreference2 extends Component {
             />
           </div>
         </div>
-        <Link to="/userpreference3" className="main__btn">
+        <Link to="/userpreference3" className="main__btn__user">
           <button className="btn__primary">Next</button>
         </Link>
       </div>

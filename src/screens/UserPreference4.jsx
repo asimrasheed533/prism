@@ -60,7 +60,7 @@ export default class UserPreference4 extends Component {
           </select>
         </div>
 
-        <Link to="/userpreference5" className="main__btn">
+        <Link to="/userpreference5" className="main__btn__user">
           <button className="btn__primary">Next</button>
         </Link>
       </div>

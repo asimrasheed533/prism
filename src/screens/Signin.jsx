@@ -62,7 +62,7 @@ export default class Signin extends Component {
                 <div className="input__error">please provide password</div>
               </div>
 
-              <Link to="/home" className="signup__btn__wraper">
+              <Link to="/userpreference1" className="signup__btn__wraper">
                 <button className="signup__btn">Sign In</button>
               </Link>
               <div className="signup__form__container__footer">
