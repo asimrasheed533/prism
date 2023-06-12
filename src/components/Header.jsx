@@ -93,12 +93,24 @@ export default class Header extends Component {
           {this.state.showMenu && (
             <div className="option__profle__menu">
               <div className="option__menu">
-                <div className="option__menu__entry">Wallet</div>
-                <div className="option__menu__entry">Profile</div>
-                <div className="option__menu__entry">jobs</div>
-                <div className="option__menu__entry">Community</div>
-                <div className="option__menu__entry">Contact</div>
-                <div className="option__menu__entry">Logout</div>
+                <Link to="/home" className="option__menu__entry">
+                  Wallet
+                </Link>
+                <Link to="/profile" className="option__menu__entry">
+                  Profile
+                </Link>
+                <Link to="/job" className="option__menu__entry">
+                  jobs
+                </Link>
+                <Link to="/community" className="option__menu__entry">
+                  Community
+                </Link>
+                <Link to="/home" className="option__menu__entry">
+                  Contact
+                </Link>
+                <Link to="/home" className="option__menu__entry">
+                  Logout
+                </Link>
               </div>
             </div>
           )}
