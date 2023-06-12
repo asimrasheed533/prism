@@ -644,7 +644,7 @@ body {
   flex: 1;
   align-items: center;
   flex-direction: column;
-  height: calc(100vh - 118px);
+  height: calc(100% - 118px);
   overflow-y: auto;
 }
 .main__wraper__sign {
