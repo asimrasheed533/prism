@@ -1497,6 +1497,47 @@ body {
   border: none;
   padding: 7px 12px;
 }
+.contact__entry__wraper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.contact__container {
+  border: 1px solid #111111;
+  border-radius: 6px;
+  padding: 2em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact__container__heading {
+  font-weight: 600;
+}
+.togal__wraper__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.togal__wraper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1em 0em;
+  padding: 0em 1.5em;
+}
+.togal__wraper__heading {
+  font-weight: 600;
+}
 @media (max-width: 700px) {
   .post__job__from {
     width: 90%;

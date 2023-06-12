@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import apply from "../assets/apply.jpeg";
-import RangePicker from "../components/RangePicker";
+import RangePickersignal from "../components/RangePickersignal";
 import Header from "../components/Header";
+import Toggle from "react-toggle";
 export default class ApplyJob extends Component {
   render() {
     return (
@@ -26,7 +27,27 @@ export default class ApplyJob extends Component {
           <div className="apply__job__bar__wraper">
             <div className="apply__job__bar__heading">Day Rate</div>
             <div className="apply__job__bar__input">
-              <RangePicker />
+              <RangePickersignal />
+            </div>
+          </div>
+          <div className="togal__wraper__container">
+            <div className="togal__wraper">
+              <div className="togal__wraper__heading">Linkedin</div>
+              <div className="togal__wraper__tobal">
+                <Toggle defaultChecked={true} icons={false} />
+              </div>
+            </div>
+            <div className="togal__wraper">
+              <div className="togal__wraper__heading">Website</div>
+              <div className="togal__wraper__tobal">
+                <Toggle defaultChecked={true} icons={false} />
+              </div>
+            </div>
+            <div className="togal__wraper">
+              <div className="togal__wraper__heading">Profile</div>
+              <div className="togal__wraper__tobal">
+                <Toggle defaultChecked={true} icons={false} />
+              </div>
             </div>
           </div>
           <Link to="/postjob" className="main__btn">

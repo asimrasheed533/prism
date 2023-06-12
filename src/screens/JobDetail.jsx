@@ -61,9 +61,24 @@ export default class JobDetail extends Component {
               sit mollitia?
             </div>
           </div>
+          <div className="detail__text__container">
+            <div className="detail__text__container__heading">
+              Job Description
+            </div>
+            <div className="detail__text__container__sub__heading">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
+              deserunt ad, odio fugit velit non! Rerum nihil eos, quo corrupti,
+              facere iure in deleniti exercitationem reiciendis, tempore itaque
+              sit mollitia?
+            </div>
+          </div>
           <Link to="/applyjob" className="main__btn__job">
             <button className="btn__primary">Apply</button>
           </Link>
+          <Link to="/applyjob" className="main__btn__job">
+            <button className="btn__primary">Delete Job</button>
+          </Link>
+
           <Link to="/refer" className="main__btn__job">
             <button className="btn__primary">Refer</button>
           </Link>

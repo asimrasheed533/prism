@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AccountInfo from "./screens/AccountInfo";
+import Applicant from "./screens/Applicant";
 import ApplyJob from "./screens/ApplyJob";
 import Community from "./screens/Community";
+import Contact from "./screens/Contact";
 import EditProfile from "./screens/EditProfile";
 import Home from "./screens/Home";
 import Job from "./screens/Job";
@@ -52,6 +54,8 @@ export default class App extends Component {
           <Route path="/profile" element={<Profile />} />
           <Route path="/organisation" element={<Organisation />} />
           <Route path="/organisationform" element={<OrganisationForm />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/applicant" element={<Applicant />} />
         </Routes>
       </BrowserRouter>
     );

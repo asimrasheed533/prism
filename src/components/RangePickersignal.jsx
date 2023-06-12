@@ -9,7 +9,7 @@ class RangePicker extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      values: [16, 60],
+      values: [32],
     };
   }
 

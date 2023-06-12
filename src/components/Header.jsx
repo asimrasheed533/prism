@@ -105,7 +105,7 @@ export default class Header extends Component {
                 <Link to="/community" className="option__menu__entry">
                   Community
                 </Link>
-                <Link to="/home" className="option__menu__entry">
+                <Link to="/contact" className="option__menu__entry">
                   Contact
                 </Link>
                 <Link to="/home" className="option__menu__entry">
