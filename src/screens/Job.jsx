@@ -3,28 +3,30 @@ import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 
 import Header from "../components/Header";
+import { SelectInput } from "../components/SelectInput";
 export default class Job extends Component {
   render() {
+    const options = [
+      "FULLSTACK DEVELOPER",
+      "FRONT END DEVELOPER",
+      "DEVELOPER",
+      "REACT DEVELOPER",
+      "JAVA DEVELOPER",
+      "BACKEND DEVELOPER",
+      "DESIGNER",
+    ];
     return (
       <div className="main__body">
         <Header />
         <div className="main__wraper">
           <div className="select__container__home">
             <div className="select__container__heading">Filter</div>
-            <select className="select__container__select">
-              <option value="volvo">FULLSTACK DEVELOPER</option>
-              <option value="saab">FRONT END DEVELOPER</option>
-              <option value="saab">DEVELOPER</option>
-              <option value="saab">DEVELOPER</option>
-              <option value="saab">REACT DEVELOPER</option>
-              <option value="saab">JAVA DEVELOPER</option>
-              <option value="saab">BACKEND DEVELOPER</option>
-              <option value="saab">DESIGNER</option>
-              <option value="saab">UI/UX DEVELOPER</option>
-              <option value="saab">PRODUCT MANAGER</option>
-              <option value="saab">PRINCIPAL ARCHITECT</option>
-              <option value="saab">DEVOPS MANAGER</option>
-            </select>
+            <SelectInput
+              options={options}
+              onChange={(e) => {
+                console.log(e);
+              }}
+            />
           </div>
           <div className="job__container">
             <div className="job__container__wraper">
@@ -429,3 +431,5 @@ export default class Job extends Component {
     );
   }
 }
+
+
