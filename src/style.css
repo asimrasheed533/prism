@@ -477,8 +477,7 @@ body {
   padding: 1em;
   color: #3232b3ce;
 }
-.btn__primary__connect {
-  width: 100px;
+.btn__primary__connect__first {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -487,11 +486,39 @@ body {
   margin: 0.5em;
   cursor: pointer;
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: 30px;
   border: none;
   font-size: 15px;
   font-weight: 500;
   color: white;
+  border: 4px solid #00f5cc;
+  transition: 0.3s ease-in-out;
+}
+.btn__primary__connect__first:hover {
+  background-color: #1a1a1b;
+  transition: 0.3s ease-in-out;
+}
+.btn__primary__connect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0102c0;
+  padding: 1em;
+  margin: 0.5em;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 16px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+.home__connection__btn__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .btn__primary__connect:hover {
   background-color: #1a1a1b;
@@ -517,6 +544,20 @@ body {
 .btn__primary__job:hover {
   background-color: #1a1a1b;
   transition: 0.3s ease-in-out;
+}
+.main__btn__svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+.main__btn__svg svg {
+  color: white;
+}
+.main__byn__svg__wraper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .main__btn__wraper {
   width: 100%;
@@ -571,7 +612,6 @@ body {
   flex: 1;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
   height: calc(100vh - 118px);
   overflow-y: auto;
 }
