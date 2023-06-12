@@ -13,20 +13,25 @@ export class SelectInput extends Component {
   }
 
   render() {
+    let filteredOptions = this.props.options.filter(
+      (option) => !this.state.values.includes(option.toLowerCase())
+    );
+
     return (
       <div>
         <select
           className="select__container__select"
-          {...this.props}
           onChange={(e) => {
-            if (!this.state.values.includes(e.target.value.toLowerCase())) {
-              this.setState({ values: [...this.state.values, e.target.value] });
-            }
+            this.setState({ values: [...this.state.values, e.target.value] });
           }}
         >
-          {this.props.options.map((option) => {
-            return <option value={option.toLowerCase()}>{option}</option>;
-          })}
+          {filteredOptions.length === 0 ? (
+            <option value="none">No more options</option>
+          ) : (
+            ["Select", ...filteredOptions].map((option) => {
+              return <option value={option.toLowerCase()}>{option}</option>;
+            })
+          )}
         </select>
         <div className="entry__wraper__container">
           {this.state.values.map((value) => {

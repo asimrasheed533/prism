@@ -4,6 +4,9 @@ import dp from "../assets/dp.png";
 import Footer from "../components/Footer";
 
 import Header from "../components/Header";
+import Toggle from "react-toggle";
+import "react-toggle/style.css"
+
 export default class Profile extends Component {
   render() {
     return (
@@ -14,7 +17,12 @@ export default class Profile extends Component {
             <div className="available__work__wraper__heading">
               Are you available for work?
             </div>
-            <div className="available__work__wraper__btn"></div>
+            <div className="available__work__wraper__btn">
+              <Toggle 
+                defaultChecked={true}
+                icons={false}
+              />
+            </div>
           </div>
           <Link to="/editprofile" className="edit__profile">
             <div className="edit__profile__entry">Edit Profile</div>
