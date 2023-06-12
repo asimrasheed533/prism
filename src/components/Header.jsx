@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import prism from "../assets/prism.svg";
 import dp from "../assets/dp.png";
+import { Link } from "react-router-dom";
 
 export default class Header extends Component {
   constructor(props) {
@@ -19,9 +20,9 @@ export default class Header extends Component {
   render() {
     return (
       <div className="header__conatiner__onboarding">
-        <div className="header__img">
+        <Link to="/home" className="header__img">
           <img src={prism} alt="logo" />
-        </div>
+        </Link>
         <div className="menu__dp">
           <button
             title="Menu"

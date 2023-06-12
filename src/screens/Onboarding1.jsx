@@ -5,7 +5,13 @@ export default class Onboarding1 extends Component {
   render() {
     return (
       <div className="main__body">
-        <div className="header__conatiner">
+        {/* <div className="header__conatiner">
+          <img src={prism} alt="logo" />
+        </div> */}
+        <div
+          className="header__conatiner__onboarding"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
           <img src={prism} alt="logo" />
         </div>
         <div className="text__container">

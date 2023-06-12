@@ -28,8 +28,8 @@ export default class App extends Component {
     return (
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/onboarding1" element={<Onboarding1 />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Onboarding1 />} />
           <Route path="/onboarding2" element={<Onboarding2 />} />
           <Route path="/onboarding3" element={<Onboarding3 />} />
           <Route path="/onboarding4" element={<Onboarding4 />} />
