@@ -1,8 +1,18 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
+import { SelectInput } from "../components/SelectInput";
 export default class UserPreference4 extends Component {
   render() {
+    const options = [
+      "FULLSTACK DEVELOPER",
+      "FRONT END DEVELOPER",
+      "DEVELOPER",
+      "REACT DEVELOPER",
+      "JAVA DEVELOPER",
+      "BACKEND DEVELOPER",
+      "DESIGNER",
+    ];
     return (
       <div>
         <div className="header__conatiner__onboarding">
@@ -43,21 +53,14 @@ export default class UserPreference4 extends Component {
           </div>
         </div>
         <div className="select__container">
-          <div className="select__container__heading">Your Role</div>
-          <select className="select__container__select">
-            <option value="volvo">FULLSTACK DEVELOPER</option>
-            <option value="saab">FRONT END DEVELOPER</option>
-            <option value="saab">DEVELOPER</option>
-            <option value="saab">DEVELOPER</option>
-            <option value="saab">REACT DEVELOPER</option>
-            <option value="saab">JAVA DEVELOPER</option>
-            <option value="saab">BACKEND DEVELOPER</option>
-            <option value="saab">DESIGNER</option>
-            <option value="saab">UI/UX DEVELOPER</option>
-            <option value="saab">PRODUCT MANAGER</option>
-            <option value="saab">PRINCIPAL ARCHITECT</option>
-            <option value="saab">DEVOPS MANAGER</option>
-          </select>
+          <div className="select__container__heading">Day Rate</div>
+
+          <SelectInput
+            options={options}
+            onChange={(e) => {
+              console.log(e);
+            }}
+          />
         </div>
 
         <Link to="/userpreference5" className="main__btn__user">

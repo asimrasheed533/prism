@@ -477,7 +477,7 @@ body {
 }
 .select__container {
   width: 100%;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   display: flex;
   padding: 1em;

@@ -1,8 +1,24 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
+import { SelectInput } from "../components/SelectInput";
 export default class UserPreference5 extends Component {
   render() {
+    const options = [
+      "C",
+      "C++",
+      "C#",
+      "Java",
+      "JavaScript",
+      "Python",
+      "PHP",
+      "Ruby",
+      "Rust",
+      "TypeScript",
+      "Go",
+      "Swift",
+      "Kotlin",
+    ];
     return (
       <div>
         <div className="header__conatiner__onboarding">
@@ -43,27 +59,14 @@ export default class UserPreference5 extends Component {
           </div>
         </div>
         <div className="select__container">
-          <div className="select__container__heading">Skill</div>
-          <select className="select__container__select">
-            <option value="volvo">C</option>
-            <option value="volvo">C++</option>
-            <option value="volvo">Java</option>
-            <option value="volvo">JavaScript</option>
-            <option value="volvo">JavaEE</option>
-            <option value="volvo">Spring FrameWork</option>
-            <option value="volvo">.NET</option>
-            <option value="volvo">C#</option>
-            <option value="volvo">Next.js</option>
-            <option value="volvo">Nest.js</option>
-            <option value="volvo">React.js</option>
-            <option value="volvo">HTML/CSS</option>
-            <option value="volvo">ELIXIR</option>
-            <option value="volvo">TAILWINDCSS</option>
-            <option value="volvo">ERLANG</option>
-            <option value="volvo">PHP</option>
-            <option value="volvo">DRAFT</option>
-            <option value="volvo">Android</option>
-          </select>
+          <div className="select__container__heading">Day Rate</div>
+
+          <SelectInput
+            options={options}
+            onChange={(e) => {
+              console.log(e);
+            }}
+          />
         </div>
         <Link to="/home" className="main__btn__user">
           <button className="btn__primary">Get Started</button>
