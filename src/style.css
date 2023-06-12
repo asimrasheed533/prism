@@ -1322,4 +1322,10 @@ body {
   .user__input__wraper {
     padding: 0em 1em;
   }
+  .option__menu {
+    flex-direction: column;
+    background-color: #f1f1f1;
+    padding: 0em 3em;
+    border-radius: 6px;
+  }
 }
