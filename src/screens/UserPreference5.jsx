@@ -20,7 +20,7 @@ export default class UserPreference5 extends Component {
       "Kotlin",
     ];
     return (
-      <div>
+      <div className="main__body">
         <div className="header__conatiner__onboarding">
           <Link to="/userpreference4" className="header__svg">
             <svg

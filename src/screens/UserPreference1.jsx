@@ -5,7 +5,7 @@ import imgplace from "../assets/imgplace.png";
 export default class UserPreference1 extends Component {
   render() {
     return (
-      <div>
+      <div className="main__body">
         <div className="header__conatiner__onboarding">
           <Link to="/userpreference1" className="header__svg">
             <svg

@@ -5,7 +5,7 @@ import RangePicker from "../components/RangePicker";
 export default class UserPreference3 extends Component {
   render() {
     return (
-      <div>
+      <div className="main__body">
         <div className="header__conatiner__onboarding">
           <Link to="/userpreference2" className="header__svg">
             <svg

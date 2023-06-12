@@ -4,7 +4,7 @@ import prism from "../assets/prism.svg";
 export default class UserPreference2 extends Component {
   render() {
     return (
-      <div>
+      <div className="main__body">
         <div className="header__conatiner__onboarding">
           <Link to="/userpreference1" className="header__svg">
             <svg

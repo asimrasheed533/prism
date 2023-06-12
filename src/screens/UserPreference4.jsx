@@ -14,7 +14,7 @@ export default class UserPreference4 extends Component {
       "DESIGNER",
     ];
     return (
-      <div>
+      <div className="main__body">
         <div className="header__conatiner__onboarding">
           <Link to="/userpreference3" className="header__svg">
             <svg
