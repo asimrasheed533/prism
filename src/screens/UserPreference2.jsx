@@ -35,36 +35,38 @@ export default class UserPreference2 extends Component {
           </div>
           <div className="skip__option">skip</div>
         </div>
-        <div className="user__details__section">
-          <div className="user__details__section__heading">Your Details</div>
-          <div className="user__input__wraper">
-            <div className="user__detail__input__label">Linkedin*</div>
-            <input
-              className="user__detail__input"
-              type="text"
-              placeholder="http://www.linkdin.com/in/john"
-            />
+        <div className="main__wraper">
+          <div className="user__details__section">
+            <div className="user__details__section__heading">Your Details</div>
+            <div className="user__input__wraper">
+              <div className="user__detail__input__label">Linkedin*</div>
+              <input
+                className="user__detail__input"
+                type="text"
+                placeholder="http://www.linkdin.com/in/john"
+              />
+            </div>
+            <div className="user__input__wraper">
+              <div className="user__detail__input__label">Github</div>
+              <input
+                className="user__detail__input"
+                type="text"
+                placeholder="http://github.com/john"
+              />
+            </div>
+            <div className="user__input__wraper">
+              <div className="user__detail__input__label">Website</div>
+              <input
+                className="user__detail__input"
+                type="text"
+                placeholder="http://personal-website.com"
+              />
+            </div>
           </div>
-          <div className="user__input__wraper">
-            <div className="user__detail__input__label">Github</div>
-            <input
-              className="user__detail__input"
-              type="text"
-              placeholder="http://github.com/john"
-            />
-          </div>
-          <div className="user__input__wraper">
-            <div className="user__detail__input__label">Website</div>
-            <input
-              className="user__detail__input"
-              type="text"
-              placeholder="http://personal-website.com"
-            />
-          </div>
+          <Link to="/userpreference3" className="main__btn__user">
+            <button className="btn__primary">Next</button>
+          </Link>
         </div>
-        <Link to="/userpreference3" className="main__btn__user">
-          <button className="btn__primary">Next</button>
-        </Link>
       </div>
     );
   }

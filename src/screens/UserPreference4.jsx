@@ -45,27 +45,29 @@ export default class UserPreference4 extends Component {
           </div>
           <div className="skip__option">skip</div>
         </div>
-        <div className="user__details__section">
-          <div className="user__details__section__heading">Day Rate</div>
-          <div className="user__details__section__heading__sub">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
-            repellat nobis aut corporis rerum quibusdam amet nostrum quidem
+        <div className="main__wraper">
+          <div className="user__details__section">
+            <div className="user__details__section__heading">Day Rate</div>
+            <div className="user__details__section__heading__sub">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
+              repellat nobis aut corporis rerum quibusdam amet nostrum quidem
+            </div>
           </div>
-        </div>
-        <div className="select__container">
-          <div className="select__container__heading">Day Rate</div>
+          <div className="select__container">
+            <div className="select__container__heading">Day Rate</div>
 
-          <SelectInput
-            options={options}
-            onChange={(e) => {
-              console.log(e);
-            }}
-          />
-        </div>
+            <SelectInput
+              options={options}
+              onChange={(e) => {
+                console.log(e);
+              }}
+            />
+          </div>
 
-        <Link to="/userpreference5" className="main__btn__user">
-          <button className="btn__primary">Next</button>
-        </Link>
+          <Link to="/userpreference5" className="main__btn__user">
+            <button className="btn__primary">Next</button>
+          </Link>
+        </div>
       </div>
     );
   }

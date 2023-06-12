@@ -71,7 +71,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10em 0em 2em 0em;
+  margin: 8em 0em 2em 0em;
   text-decoration: none;
 }
 .btn__primary {
@@ -155,8 +155,8 @@ body {
   margin: 2em;
 }
 .onboading__img img {
-  width: 180px;
-  height: 150px;
+  width: 120px;
+  height: 130px;
   border-radius: 4px;
 }
 .onboading__text {

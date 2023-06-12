@@ -36,45 +36,48 @@ export default class UserPreference1 extends Component {
           </div>
           <div className="menu"></div>
         </div>
-        <div className="walet__container__wraper">
-          <div className="walet__container__content">
-            <div className="walet__container__content__col__img__wraper">
-              <div className="walet__container__content__col__img">
-                <img src={imgplace} alt="img" />
+        <div className="main__wraper">
+          <div className="walet__container__wraper">
+            <div className="walet__container__content">
+              <div className="walet__container__content__col__img__wraper">
+                <div className="walet__container__content__col__img">
+                  <img src={imgplace} alt="img" />
+                </div>
+                <div className="walet__container__content__col__name">
+                  Arsi Jiger
+                </div>
               </div>
-              <div className="walet__container__content__col__name">
-                Arsi Jiger
-              </div>
-            </div>
 
-            <div className="walet__container__content__col">
-              <div className="walet__container__content__col__heading">
-                Skill
-              </div>
-              <div className="walet__container__content__col__skill">
-                <div className="walet__container__col__blank"></div>
-                <div className="walet__container__col__blank"></div>
-                <div className="walet__container__col__blank"></div>
-                <div className="walet__container__col__blank"></div>
-                <div className="walet__container__col__blank"></div>
-                <div className="walet__container__col__blank"></div>
-                <div className="walet__container__col__blank"></div>
-                <div className="walet__container__col__blank"></div>
+              <div className="walet__container__content__col">
+                <div className="walet__container__content__col__heading">
+                  Skill
+                </div>
+                <div className="walet__container__content__col__skill">
+                  <div className="walet__container__col__blank"></div>
+                  <div className="walet__container__col__blank"></div>
+                  <div className="walet__container__col__blank"></div>
+                  <div className="walet__container__col__blank"></div>
+                  <div className="walet__container__col__blank"></div>
+                  <div className="walet__container__col__blank"></div>
+                  <div className="walet__container__col__blank"></div>
+                  <div className="walet__container__col__blank"></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="user__container__text">
-          <div className="user__container__heading">
-            <span>You've got your wallet, </span> now let's create your profile
+          <div className="user__container__text">
+            <div className="user__container__heading">
+              <span>You've got your wallet, </span> now let's create your
+              profile
+            </div>
+            <div className="user__container__sub__heading">
+              Build your Profile will help you win work
+            </div>
           </div>
-          <div className="user__container__sub__heading">
-            Build your Profile will help you win work
-          </div>
+          <Link to="/userpreference2" className="main__btn__user">
+            <button className="btn__primary">Get Started</button>
+          </Link>
         </div>
-        <Link to="/userpreference2" className="main__btn__user">
-          <button className="btn__primary">Get Started</button>
-        </Link>
       </div>
     );
   }

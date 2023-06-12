@@ -36,15 +36,17 @@ export default class Onboarding2 extends Component {
           </div>
           <div className="menu"></div>
         </div>
-        <div className="onboading__img__section">
-          <div className="onboading__img">
-            <img src={imgplace} alt="image" />
+        <div className="main__wraper">
+          <div className="onboading__img__section">
+            <div className="onboading__img">
+              <img src={imgplace} alt="image" />
+            </div>
+            <div className="onboading__text">Build your work profile</div>
           </div>
-          <div className="onboading__text">Build your work profile</div>
+          <Link to="/onboarding3" className="main__btn">
+            <button className="btn__primary">Next</button>
+          </Link>
         </div>
-        <Link to="/onboarding3" className="main__btn">
-          <button className="btn__primary">Next</button>
-        </Link>
       </div>
     );
   }

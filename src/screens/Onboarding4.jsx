@@ -36,15 +36,17 @@ export default class Onboarding4 extends Component {
           </div>
           <div className="menu"></div>
         </div>
-        <div className="onboading__img__section">
-          <div className="onboading__img">
-            <img src={imgplace} alt="image" />
+        <div className="main__wraper">
+          <div className="onboading__img__section">
+            <div className="onboading__img">
+              <img src={imgplace} alt="image" />
+            </div>
+            <div className="onboading__text">Go anonymous, D&!</div>
           </div>
-          <div className="onboading__text">Go anonymous, D&!</div>
+          <Link to="/signup" className="main__btn">
+            <button className="btn__primary">Let's Go</button>
+          </Link>
         </div>
-        <Link to="/signup" className="main__btn">
-          <button className="btn__primary">Let's Go</button>
-        </Link>
       </div>
     );
   }

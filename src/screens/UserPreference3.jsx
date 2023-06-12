@@ -36,20 +36,22 @@ export default class UserPreference3 extends Component {
           </div>
           <div className="skip__option">skip</div>
         </div>
-        <div className="user__details__section">
-          <div className="user__details__section__heading">Day Rate</div>
-          <div className="user__details__section__heading__sub">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
-            repellat nobis aut corporis rerum quibusdam amet nostrum quidem
-            perspiciatis ratione.
+        <div className="main__wraper">
+          <div className="user__details__section">
+            <div className="user__details__section__heading">Day Rate</div>
+            <div className="user__details__section__heading__sub">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
+              repellat nobis aut corporis rerum quibusdam amet nostrum quidem
+              perspiciatis ratione.
+            </div>
           </div>
+          <div className="range__input">
+            <RangePicker />
+          </div>
+          <Link to="/userpreference4" className="main__btn__user">
+            <button className="btn__primary">Next</button>
+          </Link>
         </div>
-        <div className="range__input">
-          <RangePicker />
-        </div>
-        <Link to="/userpreference4" className="main__btn__user">
-          <button className="btn__primary">Next</button>
-        </Link>
       </div>
     );
   }
