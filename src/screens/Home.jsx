@@ -34,17 +34,21 @@ export default class Home extends Component {
               <div className="btn__primary__connect__btn">Connect</div>
             </div>
 
-            <Link to="/job" className="main__btn__wraper">
-              <button className="btn__primary__job">Explore Jobs</button>
-            </Link>
-            <Link to="/postjob" className="main__btn__wraper">
-              <button className="btn__primary__job">Post A Job</button>
-            </Link>
-            <Link to="/profile" className="main__btn__wraper">
-              <button className="btn__primary__job">
+            <div className="main__btn__wraper">
+              <Link to="/job" className="btn__primary__job">
+                Explore Jobs
+              </Link>
+            </div>
+            <div className="main__btn__wraper">
+              <Link to="/postjob" className="btn__primary__job">
+                Post A Job
+              </Link>
+            </div>
+            <div className="main__btn__wraper">
+              <Link to="/profile" className="btn__primary__job">
                 Complete Your Profile
-              </button>
-            </Link>
+              </Link>
+            </div>
           </div>
         </div>
 
