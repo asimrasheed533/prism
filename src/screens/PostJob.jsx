@@ -78,15 +78,15 @@ export default class PostJob extends Component {
               </div>
 
               <div className="job__input__wraper">
-                <div className="job__inout__wraper__label">Day Rate</div>
+                <div className="job__input__wraper__label">Day Rate</div>
                 <input type="text" placeholder="3 Months" />
               </div>
               <div className="job__input__wraper">
-                <div className="job__inout__wraper__label">Contract Period</div>
+                <div className="job__input__wraper__label">Contract Period</div>
                 <input type="text" placeholder="3 Months" />
               </div>
               <div className="job__input__wraper">
-                <div className="job__inout__wraper__label">
+                <div className="job__input__wraper__label">
                   Role Description
                 </div>
                 <input type="textarea" placeholder="Job Rols Description" />
@@ -102,7 +102,7 @@ export default class PostJob extends Component {
                 </div>
               </div>
             </div>
-            <Link to="/postjob" className="main__btn">
+            <Link to="/postjob" className="main__btn__user">
               <button className="btn__primary">Post A Job</button>
             </Link>
           </form>

@@ -86,9 +86,9 @@ export default class Header extends Component {
                 </svg>
               )}
             </button>
-            <div className="option__profile">
+            <Link to="/profile" className="option__profile">
               <img src={dp} alt="avatar" />
-            </div>
+            </Link>
           </div>
           {this.state.showMenu && (
             <div className="option__profle__menu">

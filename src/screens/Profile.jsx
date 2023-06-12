@@ -9,13 +9,13 @@ export default class Profile extends Component {
     return (
       <div className="main__body">
         <Header />
-        <div className="available__work__wraper">
-          <div className="available__work__wraper__heading">
-            Are you available for work?
-          </div>
-          <div className="available__work__wraper__btn"></div>
-        </div>
         <div className="main__wraper">
+          <div className="available__work__wraper">
+            <div className="available__work__wraper__heading">
+              Are you available for work?
+            </div>
+            <div className="available__work__wraper__btn"></div>
+          </div>
           <Link to="/editprofile" className="edit__profile">
             <div className="edit__profile__entry">Edit Profile</div>
           </Link>
@@ -33,6 +33,14 @@ export default class Profile extends Component {
               <div className="profile__skill">Linkdin</div>
               <div className="profile__skill">Github</div>
               <div className="profile__skill">WebSite</div>
+            </div>
+            <div className="skill__container">
+              <div className="skill__container__heading">Skills</div>
+              <div className="profile__skill__wraper__skill">
+                <div className="profile__skills">PHP</div>
+                <div className="profile__skills">React</div>
+                <div className="profile__skills">Dart</div>
+              </div>
             </div>
           </div>
           <div className="live__text__wraper">

@@ -419,7 +419,7 @@ export default class Job extends Component {
                 </svg>
               </Link>
             </div>
-            <Link to="/postjob" className="main__btn">
+            <Link to="/postjob" className="main__btn__user">
               <button className="btn__primary">Post A Job</button>
             </Link>
           </div>

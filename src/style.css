@@ -63,7 +63,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 5em 0em 2em 0em;
+  margin: 4em 0em 2em 0em;
   text-decoration: none;
 }
 .main__btn {
@@ -426,8 +426,8 @@ body {
   padding: 0em 4em;
 }
 .user__detail__input__label {
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 600;
   margin: 6px 0px;
 
   font-family: "Poppins", sans-serif;
@@ -567,7 +567,7 @@ body {
   text-decoration: none;
 }
 .footer__border {
-  border-top: 0.5px solid #484849;
+  border-top: 0.5px solid #ababc4;
   margin-bottom: 8px;
 }
 .footer__conteiner {
@@ -705,7 +705,7 @@ body {
   align-items: center;
   justify-content: center;
   border: 1px solid #2f2f30;
-  padding: 6px 8px;
+  padding: 4px 8px;
   cursor: pointer;
   border-radius: 7px;
 }
@@ -781,13 +781,14 @@ body {
 .job__detail__profile__heading {
   font-size: 22px;
   font-weight: bold;
-  margin: 0.5em 0em;
+  margin: 0.2em 0em;
   font-family: "Poppins", sans-serif;
 }
 .job__detail__profile__subheading {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   margin: 0.2em 0em;
+  color: #2f2f30;
 }
 .job__detail__profile__subheading span {
   margin-left: 0.4em;
@@ -843,7 +844,29 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-
+.radio__profile__container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0.6em 2em;
+  margin-top: 3em;
+  background-color: #e6e7eb;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+.radio__profile__container__heading {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2f2f30;
+  margin: 0.5em 0em;
+  font-family: "Poppins", sans-serif;
+}
+.radio__job__bar__input {
+  width: 100%;
+  margin: 6em 0em;
+}
 .input__wraper {
   width: 100%;
   display: flex;
@@ -948,7 +971,10 @@ body {
   cursor: pointer;
   text-decoration: none;
   color: #000000;
+  background-color: #00f5cc;
   transition: 0.3s ease-in-out;
+  font-size: 14px;
+  font-weight: 600;
 }
 .account__info__wraper:hover {
   background-color: #3030ac;
@@ -1101,9 +1127,11 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  padding: 0em 2em;
-  max-width: 1300px;
+  padding: 1em 2em;
+  max-width: 1366px;
   margin: 0 auto;
+  margin-top: 2em;
+  background-color: #ecf1f1;
 }
 .apply__job__bar__heading {
   font-size: 16px;
@@ -1336,13 +1364,41 @@ body {
   color: rgb(14, 13, 13);
   font-weight: 600;
 }
+.skill__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2em;
+}
+.skill__container__heading {
+  font-size: 18px;
+  font-weight: 600;
+}
+.profile__skill__wraper__skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile__skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #0102c0;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 0.5em;
+  margin: 0.3em 0.5em;
+}
 .profile__skill__wraper {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .profile__skill {
-  padding: 7px 12px;
+  padding: 5px 12px;
   background-color: #0102c0;
   color: white;
   border-radius: 20px;
@@ -1353,13 +1409,14 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 1em;
+  font-size: 14px;
 }
 .live__text__wraper {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #d4d0d0;
+  background-color: #f1f1f1;
   padding: 0.5em 0em;
   margin: 0.6em 0em;
 }
@@ -1387,6 +1444,9 @@ body {
   padding: 7px 12px;
 }
 @media (max-width: 700px) {
+  .post__job__from {
+    width: 90%;
+  }
   .user__details__section__heading__sub {
     width: 100%;
   }
