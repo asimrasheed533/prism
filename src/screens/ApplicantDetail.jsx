@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import dp from "../assets/dp.png";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Toggle from "react-toggle";
 import "react-toggle/style.css";
+import { Link } from "react-router-dom";
 
 export default class ApplicantDetail extends Component {
   render() {
@@ -34,6 +33,10 @@ export default class ApplicantDetail extends Component {
                 <div className="profile__skills">React</div>
                 <div className="profile__skills">Dart</div>
               </div>
+            </div>
+            <div className="applicantdetail__container__col__svg">
+              <Link className="applicantdetail__col__btn">Accept</Link>
+              <Link className="applicantdetail__col__btn">Reject</Link>
             </div>
           </div>
           <div className="live__text__wraper">
