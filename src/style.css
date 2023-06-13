@@ -39,7 +39,7 @@ body {
   flex-direction: column;
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 6em;
+  padding-top: 5em;
 }
 .text__container__heading {
   font-size: 2.5rem;
@@ -63,7 +63,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 4em 0em 2em 0em;
+  margin: 3em 0em 2em 0em;
   text-decoration: none;
 }
 .main__btn {
@@ -155,7 +155,7 @@ body {
   margin: 2em;
 }
 .onboading__img img {
-  width: 120px;
+  width: 140px;
   height: 130px;
   border-radius: 4px;
 }
@@ -303,10 +303,10 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border: 2px solid black;
+  border: 1px solid #adaaaa;
   border-radius: 18px;
   padding: 2em 1.5em;
-  margin: 3em 1em;
+  margin: 2.5em 1em;
 }
 .walet__container__content__col__img__wraper {
   width: 100%;
@@ -354,9 +354,9 @@ body {
   height: 12px;
   padding: 2px 12px;
   border-radius: 20px;
-  background-color: #29297e;
+  background-color: #e3e3e3;
   margin-top: 0.4em;
-  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 .user__container__text {
   width: 100%;
@@ -409,8 +409,8 @@ body {
 }
 .user__details__section__heading__sub {
   font-size: 16px;
-  font-weight: 500;
-  margin-top: 4em;
+  font-weight: 00;
+  margin-top: 3em;
   text-align: center;
   width: 60%;
   padding: 1em;
@@ -437,7 +437,7 @@ body {
   padding: 0em 4em;
 }
 .user__detail__input__label {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   margin: 6px 0px;
 
@@ -447,7 +447,7 @@ body {
   width: 100%;
   max-width: 500px;
   padding: 12px 20px;
-  border-radius: 20px;
+  border-radius: 5px;
   outline: none;
   border: 0.6px solid #1d1d99;
 }
@@ -473,15 +473,15 @@ body {
   flex-wrap: wrap;
 }
 .filter__entry {
-  background-color: #00f5cc;
+  background-color: #ededed;
   padding: 2px 8px;
   border-radius: 20px;
   margin: 0.3em 0.4em;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
 }
 .filter__entry__button {
-  background-color: #00f5cc;
+  background-color: #ededed;
   border: none;
   padding: 3px;
   margin: 4px 12px;
@@ -656,7 +656,7 @@ body {
   flex: 1;
   align-items: center;
   flex-direction: column;
-  height: calc(100% - 118px);
+  height: calc(100% - 125px);
   overflow-y: auto;
 }
 .main__wraper__sign {
@@ -735,13 +735,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #e6e7eb;
+  background-color: #f4f4f4;
   border-radius: 12px;
   padding: 12px 20px;
   margin: 0.3em 0em;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.job__container__wraper:hover {
+  background-color: #e7f1ff;
+  transition: 0.3s ease-in-out;
 }
 .job__container__col {
-  width: 250px;
+  width: 220px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -750,10 +756,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #2f2f30;
-  padding: 4px 8px;
+  padding: 12px;
   cursor: pointer;
-  border-radius: 7px;
+  background-color: white;
+  border-radius: 30px;
+  transition: 0.3s ease-in-out;
+}
+.job__container__col__svg:hover {
+  background-color: #2a85ff;
+  transition: 0.3s ease-in-out;
 }
 .job__container__col__svg svg {
   height: 20px;
@@ -763,9 +774,8 @@ body {
 .job__container__col svg {
   border-radius: 8px;
   height: 60px;
-  width: 45px;
-  padding: 5px 8px;
-  border: 1px solid #2f2f30;
+  width: 55px;
+  color: #9c9c9c;
   cursor: pointer;
 }
 .job__container__col__heading {
@@ -889,17 +899,20 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: 1em 0em;
 }
 .radio__profile__container {
-  width: 100%;
+  width: 500px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
   padding: 0.6em 2em;
   margin-top: 3em;
-  background-color: #e6e7eb;
-  max-width: 1366px;
+  background-color: #f4f4f4;
+  border-radius: 18px;
+  margin: 0em 3em;
+
   margin: 0 auto;
 }
 .radio__profile__container__heading {
@@ -1024,27 +1037,28 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
+  border: 1px solid #0102c0;
   padding: 4px 12px;
   margin-left: 1em;
   border-radius: 20px;
   cursor: pointer;
   text-decoration: none;
   color: #000000;
-  background-color: #00f5cc;
+  background-color: #0102c0;
   transition: 0.3s ease-in-out;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
+  color: white;
 }
 .account__info__wraper:hover {
-  background-color: #3030ac;
+  background-color: #000000;
   transition: 0.3s ease-in-out;
   color: white;
-  border: 1px solid #3030ac;
+  border: 1px solid #000000;
 }
 .company__profile__svg svg {
-  color: #0102c0;
-  height: 20px;
+  color: #fdfdfd;
+  height: 16px;
 }
 .profile__details__section {
   width: 100%;
@@ -1070,7 +1084,7 @@ body {
 }
 
 .detail__text__container {
-  width: 100%;
+  width: 550px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1078,7 +1092,7 @@ body {
   padding: 1em 3em;
 }
 .detail__text__container__heading {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   color: #2f2f30;
   margin: 0.2em 0em;
@@ -1086,7 +1100,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .detail__text__container__sub__heading {
-  font-size: 16px;
+  font-size: 13px;
   text-align: center;
   color: #2f2f30;
   margin: 0.2em 0em;
@@ -1120,10 +1134,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   padding: 1em 3em;
   margin-top: 2em;
-  max-width: 1350px;
+  max-width: 550px;
+  flex-wrap: wrap;
   margin: 0 auto;
 }
 
@@ -1182,16 +1196,16 @@ body {
   border-radius: 60px;
 }
 .apply__job__bar__wraper {
-  width: 100%;
+  width: 500px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  padding: 1em 2em;
+  padding: 0.4em 2em;
   max-width: 1366px;
   margin: 0 auto;
   margin-top: 2em;
-  background-color: #ecf1f1;
+  background-color: #f4f4f4;
 }
 .apply__job__bar__heading {
   font-size: 16px;
@@ -1351,20 +1365,24 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 3em;
+  margin-top: 2em;
 }
 .profile__img img {
   height: 100px;
   width: 100px;
   border-radius: 60px;
 }
-.edit__profile {
+.profile__btn__wraper {
   width: 100%;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  max-width: 1300px;
-  margin: 0 auto;
+}
+.edit__profile {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-left: 1em;
   text-decoration: none;
 }
 .edit__profile__entry {
@@ -1372,16 +1390,39 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 6px 12px;
-  background-color: #101066;
+  padding: 6px 8px;
+  background-color: #0102c0;
   color: white;
   border-radius: 20px;
   cursor: pointer;
   margin: 0.3em 0em;
+  font-size: 13px;
+  font-weight: 500;
   transition: all 0.3s ease-in-out;
 }
 .edit__profile__entry:hover {
   background-color: #000000;
+  transition: all 0.3s ease-in-out;
+}
+.edit__profile__entry__edit {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 8px;
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 0.3em 0em;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+.edit__profile__entry__edit:hover {
+  background-color: #0102c0;
+  border: 1px solid #0102c0;
+  color: white;
   transition: all 0.3s ease-in-out;
 }
 .profile__content {
@@ -1449,7 +1490,7 @@ body {
   border-radius: 30px;
   font-size: 13px;
   font-weight: 600;
-  padding: 0.5em;
+  padding: 0.5em 1em;
   margin: 0.3em 0.5em;
 }
 .profile__skill__wraper {
@@ -1694,6 +1735,20 @@ body {
     text-align: center;
   }
   .job__container__col {
+    width: 100%;
+  }
+  .profile__input__wraper {
+    width: 100%;
+    padding: 0em 1em;
+  }
+  .radio__profile__container {
+    width: 100%;
+    padding: 0em 1em;
+  }
+  .apply__job__bar__wraper {
+    width: 100%;
+  }
+  .detail__text__container {
     width: 100%;
   }
 }

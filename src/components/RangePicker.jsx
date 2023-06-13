@@ -39,7 +39,7 @@ class RangePicker extends React.Component {
               onTouchStart={props.onTouchStart}
               style={{
                 ...props.style,
-                height: "36px",
+                height: "90px",
                 display: "flex",
                 width: "100%",
               }}
@@ -47,7 +47,7 @@ class RangePicker extends React.Component {
               <div
                 ref={props.ref}
                 style={{
-                  height: "5px",
+                  height: "3px",
                   width: "100%",
                   borderRadius: "50px",
                   background: getTrackBackground({
@@ -69,8 +69,8 @@ class RangePicker extends React.Component {
               {...props}
               style={{
                 ...props.style,
-                height: "42px",
-                width: "42px",
+                height: "32px",
+                width: "32px",
                 borderRadius: "50px",
                 backgroundColor: "#FFF",
                 display: "flex",

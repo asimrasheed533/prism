@@ -20,12 +20,15 @@ export default class Profile extends Component {
               <Toggle defaultChecked={true} icons={false} />
             </div>
           </div>
-          <Link to="/editprofile" className="edit__profile">
-            <div className="edit__profile__entry">Edit Profile</div>
-          </Link>
-          <Link to="/application" className="edit__profile">
-            <div className="edit__profile__entry">Application</div>
-          </Link>
+          <div className="profile__btn__wraper">
+            <Link to="/editprofile" className="edit__profile">
+              <div className="edit__profile__entry__edit">Edit Profile</div>
+            </Link>
+            <Link to="/application" className="edit__profile">
+              <div className="edit__profile__entry">Application</div>
+            </Link>
+          </div>
+
           <div className="profile__img">
             <img src={dp} alt="avatar" />
           </div>
