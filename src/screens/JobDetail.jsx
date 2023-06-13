@@ -72,15 +72,15 @@ export default class JobDetail extends Component {
               sit mollitia?
             </div>
           </div>
-          <Link to="/applyjob" className="main__btn__job">
-            <button className="btn__primary">Apply</button>
+          <Link to="/applyjob" className="main__btn__job__one">
+            <div className="main__btn__job__one__entry">Apply</div>
           </Link>
-          <Link to="/applyjob" className="main__btn__job">
-            <button className="btn__primary">Delete Job</button>
+          <Link to="/applyjob" className="main__btn__job__one">
+            <div className="main__btn__job__dell__entry"> Delete Job</div>
           </Link>
 
-          <Link to="/refer" className="main__btn__job">
-            <button className="btn__primary">Refer</button>
+          <Link to="/refer" className="main__btn__job__one">
+            <div className="main__btn__job__refr__entry">Refer</div>
           </Link>
         </div>
         <Footer />

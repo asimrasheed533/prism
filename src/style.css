@@ -756,20 +756,24 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 12px;
+  padding: 9px;
   cursor: pointer;
   background-color: white;
   border-radius: 30px;
   transition: 0.3s ease-in-out;
+  width: 40px;
+  height: 40px;
 }
 .job__container__col__svg:hover {
   background-color: #2a85ff;
   transition: 0.3s ease-in-out;
 }
-.job__container__col__svg svg {
+.job__container__col__svg:hover .job__container__col__svg svg {
   height: 20px;
   width: 20px;
   color: #2f2f30;
+  padding: 22px;
+  border-radius: 50px;
 }
 .job__container__col svg {
   border-radius: 8px;
@@ -1105,7 +1109,74 @@ body {
   color: #2f2f30;
   margin: 0.2em 0em;
 }
-
+.main__btn__job__one {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.7em 0em;
+  text-decoration: none;
+}
+.main__btn__job__one__entry {
+  width: 300px;
+  color: rgb(0, 0, 0);
+  padding: 0.8em 0em;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+.main__btn__job__one__entry:hover {
+  background-color: #000000;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.main__btn__job__dell__entry {
+  background-color: rgb(252, 10, 10);
+  width: 300px;
+  color: rgb(252, 252, 252);
+  padding: 0.8em 0em;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+.main__btn__job__dell__entry:hover {
+  background-color: #0a0a0a;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.main__btn__job__refr__entry {
+  background-color: #0102c0;
+  width: 300px;
+  color: rgb(252, 252, 252);
+  padding: 0.8em 0em;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+.main__btn__job__refr__entry:hover {
+  background-color: #000000;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
 .main__btn__job {
   width: 100%;
   display: flex;
@@ -1562,8 +1633,21 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-.contact__container__heading {
+.contact__container__wraper {
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact__container__wraper svg {
+  height: 40px;
+  width: 40px;
+  margin-right: 0.5em;
+}
+.contact__container:hover {
+  color: #0102c0;
+  transition: 0.3s ease-in-out;
 }
 .togal__wraper__container {
   width: 100%;
