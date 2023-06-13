@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AccountInfo from "./screens/AccountInfo";
 import Applicant from "./screens/Applicant";
+import ApplicantDetail from "./screens/ApplicantDetail";
+import Application from "./screens/Application";
 import ApplyJob from "./screens/ApplyJob";
 import Community from "./screens/Community";
 import Contact from "./screens/Contact";
@@ -55,7 +57,9 @@ export default class App extends Component {
           <Route path="/organisation" element={<Organisation />} />
           <Route path="/organisationform" element={<OrganisationForm />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/application" element={<Application />} />
           <Route path="/applicant" element={<Applicant />} />
+          <Route path="/applicantdetail" element={<ApplicantDetail />} />
         </Routes>
       </BrowserRouter>
     );

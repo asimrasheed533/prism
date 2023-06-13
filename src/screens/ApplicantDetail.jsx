@@ -6,26 +6,12 @@ import Header from "../components/Header";
 import Toggle from "react-toggle";
 import "react-toggle/style.css";
 
-export default class Profile extends Component {
+export default class ApplicantDetail extends Component {
   render() {
     return (
       <div className="main__body">
         <Header />
         <div className="main__wraper">
-          <div className="available__work__wraper">
-            <div className="available__work__wraper__heading">
-              Are you available for work?
-            </div>
-            <div className="available__work__wraper__btn">
-              <Toggle defaultChecked={true} icons={false} />
-            </div>
-          </div>
-          <Link to="/editprofile" className="edit__profile">
-            <div className="edit__profile__entry">Edit Profile</div>
-          </Link>
-          <Link to="/application" className="edit__profile">
-            <div className="edit__profile__entry">Application</div>
-          </Link>
           <div className="profile__img">
             <img src={dp} alt="avatar" />
           </div>
