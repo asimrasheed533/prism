@@ -66,7 +66,10 @@ export default class Signin extends Component {
                 <button className="signup__btn">Sign In</button>
               </Link>
               <div className="signup__form__container__footer">
-                Don’t have an account yet? <Link to="/signup">Sign up</Link>
+                Don’t have an account yet?{" "}
+                <span>
+                  <Link to="/signup">Sign up</Link>
+                </span>
               </div>
             </form>
           </div>
