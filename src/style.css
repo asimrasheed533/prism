@@ -290,7 +290,7 @@ body {
   font-weight: 800;
   text-decoration: none;
 }
-.signup__form__container__footer span {
+.signup__form__container__footer a {
   color: #0102c0;
   cursor: pointer;
   font-weight: 700;
@@ -1477,8 +1477,10 @@ body {
   font-size: 13px;
   font-weight: 500;
   transition: all 0.3s ease-in-out;
+  border: 1px solid #0102c0;
 }
 .edit__profile__entry:hover {
+  border: 1px solid #050505;
   background-color: #000000;
   transition: all 0.3s ease-in-out;
 }
