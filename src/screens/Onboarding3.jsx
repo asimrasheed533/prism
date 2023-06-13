@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
+import pri2 from "../assets/pri2.png";
 import imgplace from "../assets/imgplace.png";
 export default class Onboarding3 extends Component {
   render() {
@@ -39,7 +40,7 @@ export default class Onboarding3 extends Component {
         <div className="main__wraper">
           <div className="onboading__img__section">
             <div className="onboading__img">
-              <img src={imgplace} alt="image" />
+              <img src={pri2} alt="image" />
             </div>
             <div className="onboading__text">Earn, Reward, Stake, Vote</div>
           </div>

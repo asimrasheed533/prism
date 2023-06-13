@@ -63,7 +63,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 3em 0em 2em 0em;
+  margin: 4em 0em 2em 0em;
   text-decoration: none;
 }
 .main__btn {
@@ -71,7 +71,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 6em 0em 2em 0em;
+  margin: 4em 0em 2em 0em;
   text-decoration: none;
 }
 .btn__primary {
@@ -149,15 +149,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2em;
-  border: 1px solid #1d1d523d;
   border-radius: 6px;
-  margin: 2em;
 }
 .onboading__img img {
-  width: 140px;
-  height: 130px;
-  border-radius: 4px;
+  width: 400px;
+  border-radius: 30px;
+}
+.onboading__img__last {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+.onboading__img__last img {
+  width: 200px;
+
+  border-radius: 30px;
 }
 .onboading__text {
   font-size: 16px;
