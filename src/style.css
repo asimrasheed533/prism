@@ -295,6 +295,7 @@ body {
   cursor: pointer;
   font-weight: 700;
   text-decoration: none;
+  margin-left: 0.3em;
 }
 .walet__container__wraper {
   width: 100%;
@@ -465,9 +466,9 @@ body {
 }
 .select__container__home {
   width: 100%;
-  align-items: flex-start;
   justify-content: center;
   display: flex;
+  align-items: center;
   padding: 1em;
   margin-top: 4em;
 }
@@ -500,8 +501,8 @@ body {
 }
 .select__container {
   width: 100%;
-  align-items: flex-start;
   justify-content: center;
+  align-items: center;
   display: flex;
   padding: 1em;
 }
@@ -681,8 +682,9 @@ body {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 3.8em;
+  top: 4.1em;
   left: 0px;
+  border-radius: 50px;
   background-color: white;
 }
 .option__profile {
@@ -702,11 +704,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0.5em;
 }
 .option__menu__entry {
   margin: 0.5em;
-  padding: 0.5em;
+  padding: 0.2em 0.5em;
   border-radius: 60px;
   cursor: pointer;
   font-weight: 600;
@@ -828,7 +829,6 @@ body {
   justify-content: flex-start;
   flex-direction: column;
   padding: 2em 0em;
-  margin-top: 3em;
 }
 .job__detail__profile__img {
   width: 60px;
@@ -870,7 +870,7 @@ body {
   margin: 0.2em 0em;
 }
 .job__detail__profile__posted__by {
-  margin-left: 1em;
+  margin-left: 0.5em;
   font-size: 14px;
 }
 .job__detail__profile__posted__by__skill {
@@ -970,7 +970,7 @@ body {
 }
 .radio__btn__expertise__heading {
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 600;
   color: #2f2f30;
   margin-top: 2em;
   padding: 0.5em 0em;
@@ -1424,13 +1424,15 @@ body {
   justify-content: space-between;
   border-bottom: 1px solid #8989ce;
   margin: 1em 0em;
+  padding: 0em 1em;
+  padding-bottom: 0.4em;
 }
 .available__work__wraper__heading {
   font-size: 16px;
   font-weight: 600;
   color: #2f2f30;
   margin: 0.2em 0em;
-  padding: 0.2em 1em;
+  margin-bottom: 0.6em;
 }
 .profile__img {
   width: 100%;
@@ -1448,13 +1450,13 @@ body {
   width: 100%;
   display: flex;
   align-items: flex-end;
-  justify-content: flex-end;
+  justify-content: space-between;
+  padding: 0em 1em;
 }
 .edit__profile {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  margin-left: 1em;
   text-decoration: none;
 }
 .edit__profile__entry {
@@ -1764,7 +1766,7 @@ body {
     font-size: 16px;
   }
   .footer__col__wraper__text {
-    display: none;
+    font-size: 12px;
   }
   .select__container {
     flex-direction: column;

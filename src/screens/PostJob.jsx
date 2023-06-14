@@ -61,7 +61,7 @@ export default class PostJob extends Component {
                 </select>
               </div>
               <div className="radio__btn__expertise">
-                <div className="radio__btn__expertise__heading">EXPERTISE</div>
+                <div className="radio__btn__expertise__heading">Expertise</div>
                 <div className="radio__btn__wraper">
                   <input type="radio" name="expert" value="Minimal" />
                   <label for="expert">Minimal</label>
@@ -99,7 +99,7 @@ export default class PostJob extends Component {
                 <textarea placeholder="Job Rols Description" />
               </div>
               <div className="job__input__wraper__radio">
-                <div className="job__input__wraper__label">REFERRAL BONUS</div>
+                <div className="job__input__wraper__label">Referral Bonus</div>
                 <div className="radio__btn">
                   <input type="radio" name="bonus" value="Yes" />
                   <label for="bonus">Yes</label>
