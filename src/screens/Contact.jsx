@@ -1,12 +1,19 @@
 import React, { Component } from "react";
+
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+
 export default class Contact extends Component {
   render() {
     return (
       <div className="main__body">
         <Header />
-        <div className="main__wraper">
+        <div
+          className="main__wraper"
+          style={{
+            padding: "2em",
+          }}
+        >
           <div className="user__details__section">
             <div className="user__details__section__heading">Contact US</div>
           </div>

@@ -1,17 +1,23 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import dp from "../assets/dp.png";
+
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import { Link } from "react-router-dom";
 import Toggle from "react-toggle";
-import "react-toggle/style.css";
+import dp from "../assets/dp.png";
 
 export default class Profile extends Component {
   render() {
     return (
       <div className="main__body">
         <Header />
-        <div className="main__wraper">
+        <div
+          className="main__wraper"
+          style={{
+            padding: 0,
+            justifyContent: "flex-start",
+          }}
+        >
           <div className="available__work__wraper">
             <div className="available__work__wraper__heading">
               Are you available for work?

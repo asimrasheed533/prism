@@ -1,5 +1,6 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React, { Component } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import AccountInfo from "./screens/AccountInfo";
 import Applicant from "./screens/Applicant";
 import ApplicantDetail from "./screens/ApplicantDetail";

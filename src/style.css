@@ -411,7 +411,7 @@ body {
 .user__details__section__heading {
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   font-family: "Poppins", sans-serif;
 }
 .user__details__section__heading__sub {
@@ -660,10 +660,11 @@ body {
 .main__wraper {
   width: 100%;
   display: flex;
-  flex: 1;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   height: calc(100% - 125px);
+  padding: 2em 0em;
   overflow-y: auto;
 }
 .main__wraper__sign {
@@ -681,7 +682,9 @@ body {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 3em;
+  top: 3.8em;
+  left: 0px;
+  background-color: white;
 }
 .option__profile {
   display: flex;
@@ -701,15 +704,6 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0.5em;
-  animation: slideIn 0.3s ease-in-out;
-}
-@keyframes slideIn {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(0%);
-  }
 }
 .option__menu__entry {
   margin: 0.5em;
@@ -814,11 +808,12 @@ body {
   max-width: 500px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: safe center;
   flex-direction: column;
   background-color: #e6e7eb;
   border-radius: 7px;
-  margin: 5em 0em;
+  min-height: fit-content;
+  margin: auto;
 }
 .post__job__form__heading {
   font-size: 20px;
@@ -1633,9 +1628,7 @@ body {
   margin: 0 auto;
 }
 .contact__container {
-  border: 1px solid #111111;
   border-radius: 6px;
-  padding: 2em;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -1652,7 +1645,6 @@ body {
 .contact__container__wraper svg {
   height: 40px;
   width: 40px;
-  margin-right: 0.5em;
 }
 .contact__container:hover {
   color: #0102c0;
@@ -1724,6 +1716,11 @@ body {
   text-decoration: none;
   flex-wrap: wrap;
 }
+.applicant__col__btn:hover {
+  background-color: #0f0f0f;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
 .applicantdetail__col__btn {
   display: flex;
   align-items: center;
@@ -1738,6 +1735,11 @@ body {
   cursor: pointer;
   text-decoration: none;
   flex-wrap: wrap;
+}
+.applicantdetail__col__btn:hover {
+  background-color: #0f0f0f;
+  color: white;
+  transition: 0.3s ease-in-out;
 }
 .applicantdetail__container__col__svg {
   width: 300px;

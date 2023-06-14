@@ -1,13 +1,20 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import { Link } from "react-router-dom";
+
 export default class PostJob extends Component {
   render() {
     return (
       <div className="main__body">
         <Header />
-        <div className="main__wraper">
+        <div
+          className="main__wraper"
+          style={{
+            justifyContent: "flex-start",
+          }}
+        >
           <form className="post__job__from">
             <div className="post__job__form__heading">Post a Job</div>
 
@@ -42,7 +49,7 @@ export default class PostJob extends Component {
               <div className="input__wraper">
                 <div className="input__wraper__label">Top Skill</div>
                 <select className="select__container__select">
-                  <option value="volvo">-</option>
+                  <option value="volvo">Choose Top Skill</option>
                   <option value="volvo">React.js</option>
                   <option value="volvo">HTML/CSS</option>
                   <option value="volvo">ELIXIR</option>

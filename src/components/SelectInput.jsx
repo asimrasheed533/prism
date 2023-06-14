@@ -34,9 +34,9 @@ export class SelectInput extends Component {
           )}
         </select>
         <div className="entry__wraper__container">
-          {this.state.values.map((value) => {
+          {this.state.values.map((value, index) => {
             return (
-              <div className="filter__entry">
+              <div className="filter__entry" key={index}>
                 {value}
                 <button
                   className="filter__entry__button"
@@ -56,16 +56,16 @@ export class SelectInput extends Component {
                     <path
                       d="M13 1L1 13"
                       stroke="black"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M1 1L13 13"
                       stroke="black"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 </button>

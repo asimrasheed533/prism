@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+
 import { Link } from "react-router-dom";
-import prism from "../assets/prism.svg";
 import { SelectInput } from "../components/SelectInput";
+import prism from "../assets/prism.svg";
+
 export default class UserPreference4 extends Component {
   render() {
     const options = [
@@ -27,16 +29,16 @@ export default class UserPreference4 extends Component {
               <path
                 d="M15 8H1"
                 stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
               <path
                 d="M8 15L1 8L8 1"
                 stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </Link>
@@ -47,21 +49,15 @@ export default class UserPreference4 extends Component {
         </div>
         <div className="main__wraper">
           <div className="user__details__section">
-            <div className="user__details__section__heading">Day Rate</div>
+            <div className="user__details__section__heading">Primary Role</div>
             <div className="user__details__section__heading__sub">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
               repellat nobis aut corporis rerum quibusdam amet nostrum quidem
             </div>
           </div>
           <div className="select__container">
-            <div className="select__container__heading">Day Rate</div>
-
-            <SelectInput
-              options={options}
-              onChange={(e) => {
-                console.log(e);
-              }}
-            />
+            <div className="select__container__heading">Primary Role</div>
+            <SelectInput options={options} onChange={(e) => {}} />
           </div>
 
           <Link to="/userpreference5" className="main__btn__user">

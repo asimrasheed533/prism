@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import Footer from "../components/Footer";
 
+import Footer from "../components/Footer";
 import Header from "../components/Header";
+import { Link } from "react-router-dom";
 import { SelectInput } from "../components/SelectInput";
+
 export default class Job extends Component {
   render() {
     const options = [
@@ -21,13 +22,7 @@ export default class Job extends Component {
         <div className="main__wraper">
           <div className="select__container__home">
             <div className="select__container__heading">Filter</div>
-
-            <SelectInput
-              options={options}
-              onChange={(e) => {
-                console.log(e);
-              }}
-            />
+            <SelectInput options={options} onChange={(e) => {}} />
           </div>
           <div className="job__container">
             <div className="job__container__wraper">

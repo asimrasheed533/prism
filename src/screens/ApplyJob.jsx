@@ -1,9 +1,11 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import apply from "../assets/apply.jpeg";
-import RangePickersignal from "../components/RangePickersignal";
+
 import Header from "../components/Header";
+import { Link } from "react-router-dom";
+import RangePickersignal from "../components/RangePickersignal";
 import Toggle from "react-toggle";
+import apply from "../assets/apply.jpeg";
+
 export default class ApplyJob extends Component {
   render() {
     return (

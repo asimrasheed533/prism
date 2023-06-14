@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import dp from "../assets/dp.png";
+
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import "react-toggle/style.css";
 import { Link } from "react-router-dom";
+import dp from "../assets/dp.png";
 
 export default class ApplicantDetail extends Component {
   render() {
