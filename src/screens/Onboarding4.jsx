@@ -41,7 +41,7 @@ export default class Onboarding4 extends Component {
         <div className="main__wraper">
           <div className="onboading__img__section">
             <div className="onboading__img__last">
-              <img src={pri3} alt="image" />
+              <img src={pri3} alt="pri3" />
             </div>
             <div className="onboading__text">Go anonymous, D&!</div>
           </div>

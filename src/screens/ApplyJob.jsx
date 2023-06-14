@@ -16,13 +16,12 @@ export default class ApplyJob extends Component {
             <div className="apply__text__heading">Apply</div>
             <div className="apply__img__wraper">
               <div className="apply__img">
-                <img src={apply} alt="image" />
+                <img src={apply} alt="apply" />
               </div>
               <div className="apply__img">
-                <img src={apply} alt="image" />
+                <img src={apply} alt="apply" />
               </div>
             </div>
-
             <div className="apply__text__heading">Backend Dev</div>
             <div className="apply__text__sub__heading">sample organisation</div>
           </div>

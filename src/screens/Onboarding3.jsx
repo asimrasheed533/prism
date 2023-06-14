@@ -41,7 +41,7 @@ export default class Onboarding3 extends Component {
         <div className="main__wraper">
           <div className="onboading__img__section">
             <div className="onboading__img">
-              <img src={pri2} alt="image" />
+              <img src={pri2} alt="pri2" />
             </div>
             <div className="onboading__text">Earn, Reward, Stake, Vote</div>
           </div>

@@ -41,7 +41,7 @@ export default class Onboarding2 extends Component {
         <div className="main__wraper">
           <div className="onboading__img__section">
             <div className="onboading__img">
-              <img src={pri1} alt="image" />
+              <img src={pri1} alt="pri1" />
             </div>
             <div className="onboading__text">Build your work profile</div>
           </div>
