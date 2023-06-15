@@ -152,7 +152,7 @@ body {
   border-radius: 6px;
 }
 .onboading__img img {
-  width: 400px;
+  width: 100%;
   border-radius: 30px;
 }
 .onboading__img__last {
@@ -199,6 +199,7 @@ body {
   background-color: #fff;
   padding: 2.5em 1.5em;
   border-radius: 8px;
+  scale: 0.8 0.9;
 }
 .sign__container {
   width: 100%;
@@ -1762,6 +1763,9 @@ body {
   }
 }
 @media (max-width: 550px) {
+  .footer__conteiner {
+    padding: 0.4em;
+  }
   .applicaint__heading {
     font-size: 16px;
   }
@@ -1846,5 +1850,20 @@ body {
   }
   .detail__text__container {
     width: 100%;
+  }
+  .main__btn__job__one__entry {
+    margin: 0em 1em;
+    padding: 0.5em 1em;
+  }
+  .main__btn__job__dell__entry {
+    margin: 0em 1em;
+    padding: 0.5em 1em;
+  }
+  .main__btn__job__refr__entry {
+    margin: 0em 1em;
+    padding: 0.5em 1em;
+  }
+  .profile__btn__wraper {
+    flex-direction: column;
   }
 }
