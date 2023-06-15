@@ -9,7 +9,8 @@ export default class JobDetail extends Component {
     return (
       <div className="main__body">
         <Header />
-        <div className="main__wraper"
+        <div
+          className="main__wraper"
           style={{
             justifyContent: "flex-start",
           }}
@@ -17,7 +18,7 @@ export default class JobDetail extends Component {
           <div className="job__detail__profile__container">
             <div className="job__detail__profile__img">
               <svg
-                class="w-8 h-auto text-gray-50"
+                className="w-8 h-auto text-gray-50"
                 xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true"
                 fill="currentColor"

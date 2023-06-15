@@ -15,7 +15,7 @@ export default class Application extends Component {
             <div className="job__container__wraper">
               <div className="job__container__col">
                 <svg
-                  class="w-8 h-auto text-gray-50"
+                  className="w-8 h-auto text-gray-50"
                   xmlns="http://www.w3.org/2000/svg"
                   aria-hidden="true"
                   fill="currentColor"

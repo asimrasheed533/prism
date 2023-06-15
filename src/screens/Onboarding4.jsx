@@ -33,7 +33,12 @@ export default class Onboarding4 extends Component {
               />
             </svg>
           </Link>
-          <div className="header__img">
+          <div
+            className="header__img"
+            style={{
+              marginLeft: "-1em",
+            }}
+          >
             <img src={prism} alt="logo" />
           </div>
           <div className="menu"></div>

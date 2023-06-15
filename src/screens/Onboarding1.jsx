@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import { Link } from "react-router-dom";
 import prism from "../assets/prism.svg";
+
 export default class Onboarding1 extends Component {
   render() {
     return (

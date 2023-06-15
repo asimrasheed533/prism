@@ -46,7 +46,7 @@ export default class ApplicantDetail extends Component {
                 viewBox="0 0 24 24"
                 fill="currentColor"
                 aria-hidden="true"
-                class="w-6 h-auto fill-gray-800"
+                className="w-6 h-auto fill-gray-800"
               >
                 <path
                   fill-rule="evenodd"

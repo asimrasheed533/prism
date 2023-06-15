@@ -162,7 +162,8 @@ body {
   border-radius: 6px;
 }
 .onboading__img__last img {
-  width: 200px;
+  width: 100%;
+  max-width: 300px;
 
   border-radius: 30px;
 }
@@ -970,10 +971,10 @@ body {
   margin-bottom: 1.5em;
 }
 .radio__btn__expertise__heading {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   color: #2f2f30;
-  margin-top: 2em;
+  margin-top: 0.5em;
   padding: 0.5em 0em;
   font-family: "Poppins", sans-serif;
 }
@@ -1215,13 +1216,15 @@ body {
 }
 
 .linebar__line {
-  width: 18%;
+  flex: 1;
   height: 7px;
   background-color: #0102c0;
+  margin-left: 0.5em;
   border-radius: 8px;
 }
 .linebar__line__two {
-  width: 18%;
+  flex: 1;
+  margin-left: 0.5em;
   height: 7px;
   background-color: #8989ce;
   border-radius: 8px;
